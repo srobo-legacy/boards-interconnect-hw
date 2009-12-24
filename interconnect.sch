@@ -261,7 +261,7 @@ device=RESISTOR
 T 47600 43200 5 10 1 1 0 0 1
 refdes=R3
 T 47900 43200 5 10 1 1 0 0 1
-value=10k
+value=4k7
 }
 C 50100 44600 1 90 0 zener-1.sym
 {
