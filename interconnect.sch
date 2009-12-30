@@ -34,16 +34,18 @@ refdes=U4
 T 40000 43240 5 10 0 0 0 0 1
 device=PIC10F200
 T 39700 41900 5 10 0 1 0 0 1
-footprint=SOT326
+footprint=SOT26
 }
 C 45600 53400 1 0 0 lm7805-1.sym
 {
 T 47200 54700 5 10 0 0 0 0 1
 device=7805
-T 46900 54400 5 10 1 1 0 6 1
+T 46100 54400 5 10 1 1 0 6 1
 refdes=U2
 T 45600 53400 5 10 0 0 0 0 1
-footprint=SOT-23
+footprint=SOT89
+T 46200 54400 5 10 1 1 0 0 1
+value=TS78L05ACY
 }
 C 38000 50500 1 0 0 rj45-1.sym
 {
@@ -97,9 +99,9 @@ refdes=C2
 T 47200 53300 5 10 0 0 90 0 1
 symversion=0.1
 T 48200 53400 5 10 1 1 0 0 1
-value=220n
+value=470n
 T 48100 53100 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 45000 53100 1 90 0 capacitor-1.sym
 {
@@ -112,7 +114,7 @@ symversion=0.1
 T 45100 53400 5 10 1 1 0 0 1
 value=470n
 T 45000 53100 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 N 46400 53000 46400 53400 4
 N 44800 53100 46400 53100 4
@@ -185,7 +187,7 @@ refdes=Q1
 T 53100 44000 5 10 1 1 0 0 1
 value=BC857CT
 T 52500 44600 5 10 0 1 0 0 1
-footprint=SOT-23
+footprint=SOT416
 }
 C 51600 44300 1 90 0 resistor-2.sym
 {
@@ -196,7 +198,7 @@ refdes=R1
 T 51700 44600 5 10 1 1 0 0 1
 value=1k
 T 51600 44300 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 51600 43000 1 90 0 resistor-2.sym
 {
@@ -207,7 +209,7 @@ refdes=R2
 T 51700 43300 5 10 1 1 0 0 1
 value=1k
 T 51600 43000 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 47800 45500 1 0 0 resistor-2.sym
 {
@@ -218,7 +220,7 @@ refdes=R3
 T 48300 45800 5 10 1 1 0 0 1
 value=4k7
 T 47800 45500 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 51700 41900 1 90 0 zener-1.sym
 {
@@ -370,7 +372,7 @@ symversion=0.1
 T 50400 53400 5 10 1 1 0 0 1
 value=100n
 T 49900 54000 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 51000 54000 1 270 0 capacitor-1.sym
 {
@@ -383,7 +385,7 @@ symversion=0.1
 T 51500 53400 5 10 1 1 0 0 1
 value=100n
 T 51000 54000 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 48800 54000 1 270 0 capacitor-1.sym
 {
@@ -396,7 +398,7 @@ symversion=0.1
 T 49300 53400 5 10 1 1 0 0 1
 value=100n
 T 48800 54000 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 N 55900 46000 55100 46000 4
 {
@@ -427,7 +429,7 @@ refdes=Q3
 T 50100 47900 5 10 1 1 0 0 1
 value=2N7002K
 T 51200 48000 5 10 0 1 0 0 1
-footprint=SOT-23
+footprint=SOT23
 }
 C 51200 50000 1 90 1 nmos-3.sym
 {
@@ -438,7 +440,7 @@ refdes=Q2
 T 50100 49900 5 10 1 1 0 0 1
 value=2N7002K
 T 51200 50000 5 10 0 1 0 0 1
-footprint=SOT-23
+footprint=SOT23
 }
 N 55900 51100 55300 51100 4
 {
@@ -454,7 +456,7 @@ refdes=R5
 T 51900 50100 5 10 1 1 0 0 1
 value=10k
 T 51800 49800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 51800 47800 1 90 0 resistor-2.sym
 {
@@ -465,7 +467,7 @@ refdes=R7
 T 51900 48100 5 10 1 1 0 0 1
 value=10k
 T 51800 47800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 49300 49800 1 90 0 resistor-2.sym
 {
@@ -476,7 +478,7 @@ refdes=R4
 T 49400 50100 5 10 1 1 0 0 1
 value=10k
 T 49300 49800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 C 49300 47800 1 90 0 resistor-2.sym
 {
@@ -487,7 +489,7 @@ refdes=R6
 T 49400 48100 5 10 1 1 0 0 1
 value=10k
 T 49300 47800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 N 51000 48000 51000 49000 4
 N 51000 49000 51700 49000 4
@@ -540,7 +542,7 @@ refdes=Q4
 T 46300 46000 5 10 1 1 0 0 1
 value=2N7002K
 T 46000 46100 5 10 0 1 0 0 1
-footprint=SOT-23
+footprint=SOT23
 }
 N 46000 45600 45200 45600 4
 N 46200 46100 46200 46800 4
@@ -558,7 +560,7 @@ refdes=R8
 T 47600 46100 5 10 1 1 0 0 1
 value=10k
 T 47500 45800 5 10 0 1 0 0 1
-footprint=0805
+footprint=0603
 }
 N 47800 45600 46800 45600 4
 N 47400 45800 47400 45600 4
