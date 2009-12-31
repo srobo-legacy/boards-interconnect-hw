@@ -521,13 +521,17 @@ T 56500 45500 5 10 0 0 0 6 1
 device=INPUT
 T 56600 45400 5 10 1 1 180 6 1
 refdes=TX_EN
+T 56500 45200 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 56500 45900 1 0 1 in-1.sym
 {
 T 56500 46200 5 10 0 0 0 6 1
 device=INPUT
 T 56600 46100 5 10 1 1 180 6 1
-refdes=\_program_uC\_
+refdes=Program_uC
+T 56500 45900 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 56500 44500 1 0 1 in-1.sym
 {
@@ -535,6 +539,8 @@ T 56500 44800 5 10 0 0 0 6 1
 device=INPUT
 T 56600 44700 5 10 1 1 180 6 1
 refdes=TX_D
+T 56500 44500 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 55900 43800 1 0 0 out-1.sym
 {
@@ -542,20 +548,26 @@ T 55900 44100 5 10 0 0 0 0 1
 device=OUTPUT
 T 56600 44000 5 10 1 1 0 2 1
 refdes=RX_D
+T 55900 43800 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 56500 47400 1 0 1 in-1.sym
 {
 T 56500 47700 5 10 0 0 0 6 1
 device=INPUT
 T 56600 47600 5 10 1 1 180 6 1
-refdes=get_token
+refdes=GetTOKEN
+T 56500 47400 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 55900 49400 1 0 0 out-1.sym
 {
 T 55900 49700 5 10 0 0 0 0 1
 device=OUTPUT
 T 56600 49600 5 10 1 1 0 2 1
-refdes=has_token
+refdes=HasTOKEN
+T 55900 49400 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 56500 51000 1 0 1 in-1.sym
 {
@@ -563,6 +575,8 @@ T 56500 51300 5 10 0 0 0 6 1
 device=INPUT
 T 56600 51200 5 10 1 1 180 6 1
 refdes=3V3
+T 56500 51000 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 55900 51700 1 0 0 out-1.sym
 {
@@ -570,6 +584,8 @@ T 55900 52000 5 10 0 0 0 0 1
 device=OUTPUT
 T 56600 51900 5 10 1 1 0 2 1
 refdes=GND
+T 55900 51700 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 55900 52400 1 0 0 out-1.sym
 {
@@ -577,6 +593,8 @@ T 55900 52700 5 10 0 0 0 0 1
 device=OUTPUT
 T 56600 52600 5 10 1 1 0 2 1
 refdes=12V
+T 55900 52400 5 10 0 0 0 0 1
+footprint=Test_Point
 }
 C 45600 53400 1 0 0 linear-reg-1.sym
 {
@@ -633,3 +651,6 @@ value=BC857CT
 T 52500 44600 5 10 0 1 180 6 1
 footprint=SOT416
 }
+T 57400 45400 9 10 1 0 0 0 2
+Note:
+Program_uC is active low

@@ -12,7 +12,7 @@ pinseq=3
 P 2000 1800 1600 1800 1 0 0
 {
 T 1445 1795 5 10 1 1 0 7 1
-pinlabel=has_token
+pinlabel=HasTOKEN
 T 1645 1845 5 10 1 1 0 0 1
 pinnumber=4
 T 2000 1800 5 10 0 0 0 0 1
@@ -21,7 +21,7 @@ pinseq=4
 P 2000 1500 1600 1500 1 0 0
 {
 T 1445 1495 5 10 1 1 0 7 1
-pinlabel=get_token
+pinlabel=GetTOKEN
 T 1645 1545 5 10 1 1 0 0 1
 pinnumber=5
 T 2000 1500 5 10 0 0 0 0 1
@@ -30,7 +30,7 @@ pinseq=5
 P 2000 2200 1600 2200 1 0 0
 {
 T 1445 2195 5 10 1 1 0 7 1
-pinlabel=\_program_uC\_
+pinlabel=Program_uC
 T 1645 2245 5 10 1 1 0 0 1
 pinnumber=6
 T 2000 2200 5 10 0 0 0 0 1
