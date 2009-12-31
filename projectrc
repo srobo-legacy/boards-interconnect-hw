@@ -1,0 +1,4 @@
+schematics interconnect.sch
+output-name interconnect
+elements-dir ./components/pkg
+
