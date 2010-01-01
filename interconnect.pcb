@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Fri Jan  1 18:58:08 2010
+# date:    Fri Jan  1 19:59:57 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -8,8 +8,8 @@ FileVersion[20070407]
 
 PCB["" 196850 196850]
 
-Grid[1000.000000 0 0 1]
-Cursor[0 0 0.000000]
+Grid[1000.000000 0 0 0]
+Cursor[0 196850 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -798,33 +798,33 @@ Symbol('~' 12)
 	SymbolLine(20 35 25 30 8)
 )
 
-Element["onsolder" "SOD80" "Z1" "CLL5240B" 109000 65000 11600 0 3 100 "auto"]
+Element["" "SOD80" "Z1" "CLL5240B" 83000 48000 0 -11600 0 100 ""]
 (
-	Pad[-5800 -1600 -5800 1600 5300 2000 5900 "1" "1" "onsolder,square"]
-	Pad[5800 -1600 5800 1600 5300 2000 5900 "2" "2" "onsolder,square"]
-	ElementLine [-10600 4300 -10600 -4300 2000]
-	ElementLine [-10600 -4300 -8000 -5500 1000]
-	ElementLine [-8000 -5500 9600 -5500 1000]
-	ElementLine [9600 -5500 9600 5500 1000]
-	ElementLine [9600 5500 -8000 5500 1000]
-	ElementLine [-8000 5500 -10600 4300 1000]
+	Pad[-1600 5800 1600 5800 5300 2000 5900 "1" "1" "square"]
+	Pad[-1600 -5800 1600 -5800 5300 2000 5900 "2" "2" "square"]
+	ElementLine [-4300 10600 4300 10600 2000]
+	ElementLine [4300 10600 5500 8000 1000]
+	ElementLine [5500 8000 5500 -9600 1000]
+	ElementLine [-5500 -9600 5500 -9600 1000]
+	ElementLine [-5500 8000 -5500 -9600 1000]
+	ElementLine [-5500 8000 -4300 10600 1000]
 
 	)
 
-Element["onsolder" "0603" "C1" "470n" 8000 55000 -3150 3150 0 100 "auto"]
+Element["onsolder" "Test_Point" "GND" "unknown" 80000 104000 2000 -2000 0 100 "auto"]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["" "Test_Point" "Program_uC" "unknown" 100000 50000 0 6000 0 100 ""]
+Element["onsolder" "0603" "R5" "10k" 80000 5000 1968 -834 0 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[-2559 492 -2559 -492 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[2559 492 2559 -492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SO8" "U1" "unknown" 24000 32500 -4000 17500 0 100 "auto"]
+Element["onsolder" "SO8" "U1" "unknown" 33000 32000 8000 16500 0 100 "auto"]
 (
 	Pad[-13500 7500 -7000 7500 2000 1000 3000 "R" "1" "onsolder,square"]
 	Pad[-13500 2500 -7000 2500 2000 1000 3000 "2" "2" "onsolder,square"]
@@ -843,97 +843,126 @@ Element["onsolder" "SO8" "U1" "unknown" 24000 32500 -4000 17500 0 100 "auto"]
 
 	)
 
-Element["onsolder" "0603" "R2" "1k" 106000 77000 -150 -2850 0 100 "auto"]
+Element["onsolder" "0603" "R2" "1k" 74000 56000 2850 -150 1 100 "auto"]
+(
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
+
+	)
+
+Element["" "SOT26" "U4" "unknown" 78328 127596 11800 -11000 3 100 ""]
+(
+	Pad[0 800 0 -800 2400 3000 3000 "GP0/ICSPDAT" "1" "square,edge2"]
+	Pad[3900 800 3900 -800 2400 3000 3000 "Vss" "2" "square,edge2"]
+	Pad[7800 800 7800 -800 2400 3000 3000 "GP1/ICSPCLK" "3" "square,edge2"]
+	Pad[7800 -7400 7800 -9000 2400 3000 3000 "GP2/T0CKI/FOSC4" "4" "square"]
+	Pad[3900 -7400 3900 -9000 2400 3000 3000 "Vdd" "5" "square"]
+	Pad[0 -7400 0 -9000 2400 3000 3000 "GP3/_MCLR_/Vpp" "6" "square"]
+	ElementLine [-2000 -11000 -2000 2900 1000]
+	ElementLine [-2000 2900 9800 2900 1000]
+	ElementLine [9800 2900 9800 -11000 1000]
+	ElementLine [9800 -11000 -2000 -11000 1000]
+
+	)
+
+Element["onsolder" "0603" "R1" "1k" 74067 44949 3450 2050 1 100 "auto"]
+(
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
+
+	)
+
+Element["onsolder" "Test_Point" "3V3" "unknown" 80000 92000 1672 -1904 0 100 "auto"]
+(
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
+
+	)
+
+Element["" "SOT23" "Q3" "2N7002K" 80000 33300 12300 -11000 3 100 ""]
+(
+	Pad[0 300 0 -300 3400 3000 4000 "G" "1" "square,edge2"]
+	Pad[7800 300 7800 -300 3400 3000 4000 "S" "2" "square,edge2"]
+	Pad[3900 -7900 3900 -8500 3400 3000 4000 "D" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+
+	)
+
+Element["onsolder" "0603" "C3" "100n" 45000 17000 -150 -2850 0 100 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["" "Test_Point" "HasTOKEN" "unknown" 159000 9000 -1328 3904 0 100 ""]
+Element["onsolder" "0603" "R6" "10k" 74000 22000 1834 2850 1 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["" "Test_Point" "GetTOKEN" "unknown" 142000 30000 0 4000 0 100 ""]
+Element["onsolder" "SOT23" "Q4" "2N7002K" 49700 128000 -10400 2300 0 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[-300 0 300 0 3400 3000 4000 "G" "1" "onsolder,square"]
+	Pad[-300 -7800 300 -7800 3400 3000 4000 "S" "2" "onsolder,square"]
+	Pad[7900 -3900 8500 -3900 3400 3000 4000 "D" "3" "onsolder,square,edge2"]
+	ElementLine [-2900 2500 11000 2500 1000]
+	ElementLine [-2900 -10300 -2900 2500 1000]
+	ElementLine [-2900 -10300 11000 -10300 1000]
+	ElementLine [11000 -10300 11000 2500 1000]
 
 	)
 
-Element["" "Test_Point" "RX_D" "unknown" 142000 51000 1000 3000 0 100 ""]
+Element["onsolder" "0603" "C4" "100n" 12000 97000 -2850 7150 3 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SOT23" "Q3" "2N7002K" 120000 20700 12300 11000 3 100 "auto"]
+Element["" "8P8C" "CONN2" "unknown" 57000 81000 16051 4051 1 100 ""]
 (
-	Pad[0 -300 0 300 3400 3000 4000 "G" "1" "onsolder,square"]
-	Pad[7800 -300 7800 300 3400 3000 4000 "S" "2" "onsolder,square"]
-	Pad[3900 7900 3900 8500 3400 3000 4000 "D" "3" "onsolder,square,edge2"]
-	ElementLine [-2500 11000 -2500 -2900 1000]
-	ElementLine [-2500 -2900 10300 -2900 1000]
-	ElementLine [10300 -2900 10300 11000 1000]
-	ElementLine [10300 11000 -2500 11000 1000]
+	Pin[10000 35000 6000 2000 6000 3500 "I7" "8" "edge2"]
+	Pin[0 30000 6000 2000 6000 3500 "I6" "7" "edge2"]
+	Pin[10000 15000 6000 2000 6000 3500 "I3" "4" "edge2"]
+	Pin[0 10000 6000 2000 6000 3500 "I2" "3" "edge2"]
+	Pin[0 20000 6000 2000 6000 3500 "I4" "5" "edge2"]
+	Pin[0 0 6000 2000 6000 3500 "I0" "1" "square,edge2"]
+	Pin[10000 5000 6000 2000 6000 3500 "I1" "2" "edge2"]
+	Pin[10000 25000 6000 2000 6000 3500 "I5" "6" "edge2"]
+	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole,edge2"]
+	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole,edge2"]
+	ElementLine [-47000 -14500 -47000 49300 1000]
+	ElementLine [-56000 49500 15000 49500 1000]
+	ElementLine [15000 49500 15000 -14500 1000]
+	ElementLine [-56000 -14500 15000 -14500 1000]
+	ElementLine [-56000 -14500 -56000 49500 1000]
 
 	)
 
-Element["onsolder" "0603" "C3" "100n" 13000 47000 -3150 3150 0 100 "auto"]
+Element["onsolder" "0603" "R8" "10k" 44000 112000 9709 -7642 2 100 "auto"]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["" "0603" "R6" "10k" 137441 89508 -3150 -3150 0 100 ""]
+Element["" "SOT23" "Q2" "2N7002K" 80000 18700 14300 -13000 3 100 ""]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+	Pad[0 300 0 -300 3400 3000 4000 "G" "1" "square,edge2"]
+	Pad[7800 300 7800 -300 3400 3000 4000 "S" "2" "square,edge2"]
+	Pad[3900 -7900 3900 -8500 3400 3000 4000 "D" "3" "square"]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [10300 -11000 -2500 -11000 1000]
 
 	)
 
-Element["" "0603" "R4" "10k" 117441 89508 -3150 -2166 0 100 ""]
-(
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
-
-	)
-
-Element["" "0603" "R7" "10k" 98441 87508 -3150 -3150 0 100 ""]
-(
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
-
-	)
-
-Element["" "Test_Point" "TX_EN" "unknown" 177441 89508 0 3000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
-
-	)
-
-Element["onsolder" "0603" "R8" "10k" 16000 125000 -9709 7642 0 100 "auto"]
-(
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
-
-	)
-
-Element["onsolder" "SOT23" "Q2" "2N7002K" 77328 13604 12300 11000 3 100 "auto"]
-(
-	Pad[0 -300 0 300 3400 3000 4000 "G" "1" "onsolder,square"]
-	Pad[7800 -300 7800 300 3400 3000 4000 "S" "2" "onsolder,square"]
-	Pad[3900 7900 3900 8500 3400 3000 4000 "D" "3" "onsolder,square,edge2"]
-	ElementLine [-2500 11000 -2500 -2900 1000]
-	ElementLine [-2500 -2900 10300 -2900 1000]
-	ElementLine [10300 -2900 10300 11000 1000]
-	ElementLine [10300 11000 -2500 11000 1000]
-
-	)
-
-Element["onsolder" "0603" "R3" "4k7" 46000 100016 -6709 8642 0 100 "auto"]
+Element["onsolder" "0603" "R3" "4k7" 71000 125000 291 -2358 0 100 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -960,27 +989,27 @@ Element["" "8P8C" "CONN1" "unknown" 57000 15000 16328 2504 1 100 ""]
 
 	)
 
-Element["onsolder" "0603" "C5" "100n" 78000 44000 -1150 9150 0 100 "auto"]
+Element["" "0603" "C5" "100n" 80000 111000 -1150 -9150 0 100 ""]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[-2559 492 -2559 -492 2952 2000 3552 "1" "1" "square"]
+	Pad[2559 492 2559 -492 2952 2000 3552 "2" "2" "square"]
 
 	)
 
-Element["onsolder" "SOT89" "U2" "TS78L05ACY" 7000 65700 17300 16400 3 100 "auto"]
+Element["onsolder" "SOT89" "U2" "TS78L05ACY" 45700 72000 16400 -17300 2 100 "auto"]
 (
-	Pad[0 -1200 0 1200 3700 3000 4300 "OUT" "1" "onsolder,square"]
-	Pad[6100 -1200 6100 1200 3700 3000 4300 "GND" "2" "onsolder,square"]
-	Pad[12200 -1200 12200 1200 3700 3000 4300 "IN" "3" "onsolder,square"]
-	Pad[3100 12200 9100 12200 6100 3000 6700 "4" "4" "onsolder,square"]
-	ElementLine [-3000 16400 -3000 -4300 1000]
-	ElementLine [-3000 -4300 15300 -4300 1000]
-	ElementLine [15300 -4300 15300 16400 1000]
-	ElementLine [15300 16400 -3000 16400 1000]
+	Pad[-1200 0 1200 0 3700 3000 4300 "OUT" "1" "onsolder,square"]
+	Pad[-1200 -6100 1200 -6100 3700 3000 4300 "GND" "2" "onsolder,square"]
+	Pad[-1200 -12200 1200 -12200 3700 3000 4300 "IN" "3" "onsolder,square"]
+	Pad[12200 -9100 12200 -3100 6100 3000 6700 "4" "4" "onsolder,square,edge2"]
+	ElementLine [-4300 3000 16400 3000 1000]
+	ElementLine [-4300 -15300 -4300 3000 1000]
+	ElementLine [-4300 -15300 16400 -15300 1000]
+	ElementLine [16400 -15300 16400 3000 1000]
 
 	)
 
-Element["onsolder" "SO8" "U3" "unknown" 24000 100000 0 -11500 0 100 "auto"]
+Element["onsolder" "SO8" "U3" "unknown" 33000 97000 -15000 16500 0 100 "auto"]
 (
 	Pad[-13500 7500 -7000 7500 2000 1000 3000 "Vcc" "1" "onsolder,square"]
 	Pad[-13500 2500 -7000 2500 2000 1000 3000 "R" "2" "onsolder,square"]
@@ -999,102 +1028,85 @@ Element["onsolder" "SO8" "U3" "unknown" 24000 100000 0 -11500 0 100 "auto"]
 
 	)
 
-Element["" "0603" "R5" "10k" 157441 109508 -3150 -3150 0 100 ""]
+Element["onsolder" "SOT416" "Q1" "BC857CT" 69031 66095 -3000 -3000 0 100 "auto"]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
+	Pad[1969 5905 1969 5511 2755 2755 3543 "C" "3" "onsolder,square,edge2"]
+	Pad[0 394 0 0 2755 2755 3543 "B" "1" "onsolder,square"]
+	Pad[3937 394 3937 0 2755 2755 3543 "E" "2" "onsolder,square"]
+	ElementLine [-2362 8267 6299 8267 787]
+	ElementLine [6299 -2364 -2362 -2363 787]
+	ElementLine [6299 8267 6299 -2363 787]
+	ElementLine [-2362 -2363 -2362 8267 787]
 
 	)
 
-Element["onsolder" "SOT26" "U4" "unknown" 44328 61404 11800 11000 3 100 "auto"]
+Element["onsolder" "Test_Point" "Program_uC" "unknown" 80000 80000 2000 -2000 0 100 "auto"]
 (
-	Pad[0 -800 0 800 2400 3000 3000 "GP0/ICSPDAT" "1" "onsolder,square"]
-	Pad[3900 -800 3900 800 2400 3000 3000 "Vss" "2" "onsolder,square"]
-	Pad[7800 -800 7800 800 2400 3000 3000 "GP1/ICSPCLK" "3" "onsolder,square"]
-	Pad[7800 7400 7800 9000 2400 3000 3000 "GP2/T0CKI/FOSC4" "4" "onsolder,square,edge2"]
-	Pad[3900 7400 3900 9000 2400 3000 3000 "Vdd" "5" "onsolder,square,edge2"]
-	Pad[0 7400 0 9000 2400 3000 3000 "GP3/_MCLR_/Vpp" "6" "onsolder,square,edge2"]
-	ElementLine [-2000 11000 -2000 -2900 1000]
-	ElementLine [-2000 -2900 9800 -2900 1000]
-	ElementLine [9800 -2900 9800 11000 1000]
-	ElementLine [9800 11000 -2000 11000 1000]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["onsolder" "0603" "R1" "1k" 94000 80000 2050 -3450 0 100 "auto"]
+Element["onsolder" "Test_Point" "HasTOKEN" "unknown" 80000 56000 2672 -2904 0 100 "auto"]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["onsolder" "0603" "C2" "470n" 18000 54984 -3150 3150 0 100 "auto"]
+Element["onsolder" "Test_Point" "GetTOKEN" "unknown" 80000 68000 2000 -2000 0 100 "auto"]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["onsolder" "SOT23" "Q4" "2N7002K" 43000 117700 12300 11000 3 100 "auto"]
+Element["onsolder" "Test_Point" "RX_D" "unknown" 80000 18000 2000 -2000 0 100 "auto"]
 (
-	Pad[0 -300 0 300 3400 3000 4000 "G" "1" "onsolder,square"]
-	Pad[7800 -300 7800 300 3400 3000 4000 "S" "2" "onsolder,square"]
-	Pad[3900 7900 3900 8500 3400 3000 4000 "D" "3" "onsolder,square,edge2"]
-	ElementLine [-2500 11000 -2500 -2900 1000]
-	ElementLine [-2500 -2900 10300 -2900 1000]
-	ElementLine [10300 -2900 10300 11000 1000]
-	ElementLine [10300 11000 -2500 11000 1000]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["" "Test_Point" "TX_D" "unknown" 139000 63000 1000 3000 0 100 ""]
+Element["onsolder" "0603" "R4" "10k" 64000 5000 1409 6674 0 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[-2559 492 -2559 -492 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[2559 492 2559 -492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["" "Test_Point" "12V" "unknown" 90000 30300 0 0 0 100 ""]
+Element["onsolder" "0603" "R7" "10k" 74000 33000 2342 527 1 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "C4" "100n" 13000 116000 -3150 3150 0 100 "auto"]
+Element["onsolder" "Test_Point" "TX_EN" "unknown" 80000 43000 2000 -2000 0 100 "auto"]
 (
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["" "Test_Point" "GND" "unknown" 179328 49096 1000 3000 0 100 ""]
+Element["onsolder" "Test_Point" "TX_D" "unknown" 80000 30000 2000 -2000 0 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["" "Test_Point" "3V3" "unknown" 139000 7000 -328 3904 0 100 ""]
+Element["onsolder" "Test_Point" "12V" "unknown" 80000 116000 2000 -1700 0 100 "auto"]
 (
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
+	Pad[0 0 0 0 3500 2000 5500 "1" "1" "onsolder"]
 
 	)
 
-Element["" "8P8C" "CONN2" "unknown" 57000 81000 16051 4051 1 100 ""]
+Element["onsolder" "0603" "C1" "470n" 20508 60559 -9658 -1709 1 100 "auto"]
 (
-	Pin[10000 35000 6000 2000 6000 3500 "I7" "8" "edge2"]
-	Pin[0 30000 6000 2000 6000 3500 "I6" "7" "edge2"]
-	Pin[10000 15000 6000 2000 6000 3500 "I3" "4" "edge2"]
-	Pin[0 10000 6000 2000 6000 3500 "I2" "3" "edge2"]
-	Pin[0 20000 6000 2000 6000 3500 "I4" "5" "edge2"]
-	Pin[0 0 6000 2000 6000 3500 "I0" "1" "square,edge2"]
-	Pin[10000 5000 6000 2000 6000 3500 "I1" "2" "edge2"]
-	Pin[10000 25000 6000 2000 6000 3500 "I5" "6" "edge2"]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole,edge2"]
-	ElementLine [-47000 -14500 -47000 49300 1000]
-	ElementLine [-56000 49500 15000 49500 1000]
-	ElementLine [15000 49500 15000 -14500 1000]
-	ElementLine [-56000 -14500 15000 -14500 1000]
-	ElementLine [-56000 -14500 -56000 49500 1000]
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
+
+	)
+
+Element["onsolder" "0603" "C2" "470n" 20508 71559 -10166 -3150 1 100 "auto"]
+(
+	Pad[-492 -2559 492 -2559 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 Layer(1 "component")
@@ -1103,7 +1115,7 @@ Layer(1 "component")
 	Line[67000 50000 67000 55000 1000 2000 "clearline"]
 	Line[67000 55000 84000 72000 1000 2000 "clearline"]
 	Line[84000 72000 84000 99000 1000 2000 "clearline"]
-	Line[53000 20000 52000 21000 2000 2000 "clearline"]
+	Line[57000 81000 56000 81000 2500 2000 "clearline"]
 	Line[69000 111000 57000 111000 1000 2000 "clearline"]
 	Line[82000 98000 69000 111000 1000 2000 "clearline"]
 	Line[82000 73000 82000 98000 1000 2000 "clearline"]
@@ -1124,7 +1136,7 @@ Layer(1 "component")
 	Line[67000 30000 54003 30000 1000 2000 "clearline"]
 	Line[54003 30000 48000 36000 1000 2000 "clearline"]
 	Line[48000 36000 48000 51000 1000 2000 "clearline"]
-	Line[62000 20000 53000 20000 2000 2000 "clearline"]
+	Line[78000 95000 67000 106000 1000 2000 "clearline"]
 	Line[74000 89000 67000 96000 1000 2000 "clearline"]
 	Line[69000 101000 57000 101000 1000 2000 "clearline"]
 	Line[74000 89000 74000 77000 1000 2000 "clearline"]
@@ -1134,29 +1146,28 @@ Layer(1 "component")
 	Line[52000 43000 52000 49000 1000 2000 "clearline"]
 	Line[52000 49000 78000 75000 1000 2000 "clearline"]
 	Line[78000 75000 78000 95000 1000 2000 "clearline"]
-	Line[78000 95000 67000 106000 1000 2000 "clearline"]
-	Line[57000 81000 56000 81000 2500 2000 "clearline"]
-	Line[56000 81000 40000 65000 2500 2000 "clearline"]
-	Line[67000 81000 67000 86000 2500 2000 "clearline"]
-	Line[40000 65000 27000 65000 2500 2000 "clearline"]
-	Line[52000 15000 57000 15000 2500 2000 "clearline"]
-	Line[67000 20000 62000 20000 2500 2000 "clearline"]
-	Line[62000 20000 62000 20000 2000 2000 "clearline"]
-	Line[52000 21000 42000 31000 2500 2000 "clearline,rubberend"]
-	Line[42000 31000 42000 56000 2500 2000 "clearline"]
-	Line[42000 56000 67000 81000 2500 2000 "clearline"]
-	Line[52000 15000 22000 45000 2500 2000 "clearline"]
-	Line[27000 65000 22000 60000 2500 2000 "clearline"]
-	Line[22000 45000 22000 60000 2500 2000 "clearline"]
 )
 Layer(2 "solder")
 (
 )
 Layer(3 "GND-component")
 (
+	Line[53000 20000 51000 22000 2000 2000 "clearline"]
+	Line[51000 22000 42000 31000 2500 2000 "clearline"]
+	Line[67000 20000 62500 20000 2500 2000 "clearline"]
+	Line[62500 20000 53000 20000 2000 2000 "clearline"]
+	Line[42000 31000 42000 56000 2500 2000 "clearline"]
+	Line[42000 56000 67000 81000 2500 2000 "clearline"]
+	Line[67000 81000 67000 86000 2500 2000 "clearline"]
 )
 Layer(4 "power-component")
 (
+	Line[52000 15000 22000 45000 2500 2000 "clearline"]
+	Line[52000 15000 57000 15000 2500 2000 "clearline"]
+	Line[22000 45000 22000 60000 2500 2000 "clearline"]
+	Line[27000 65000 22000 60000 2500 2000 "clearline"]
+	Line[40000 65000 27000 65000 2500 2000 "clearline"]
+	Line[56000 81000 40000 65000 2500 2000 "clearline"]
 )
 Layer(5 "GND-solder")
 (

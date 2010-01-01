@@ -2,4 +2,5 @@
 *.backup
 *.net
 *.cmd
+*.new.pcb
 *.pcb-
