@@ -1,5 +1,5 @@
 # release: pcb 20091103
-# date:    Thu Dec 31 12:11:46 2009
+# date:    Fri Jan  1 18:58:08 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -14,7 +14,7 @@ PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags("showdrc,rubberband,nameonpcb,uniquename,clearnew,snappin")
-Groups("1,c:2,s:3:4:5:6:7:8")
+Groups("1,3,4,c:2,5,6,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
 Symbol(' ' 18)
@@ -818,7 +818,7 @@ Element["onsolder" "0603" "C1" "470n" 8000 55000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["" "Test_Point" "Program_uC" "unknown" 100000 50000 0 0 0 100 ""]
+Element["" "Test_Point" "Program_uC" "unknown" 100000 50000 0 6000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
@@ -850,19 +850,19 @@ Element["onsolder" "0603" "R2" "1k" 106000 77000 -150 -2850 0 100 "auto"]
 
 	)
 
-Element["" "Test_Point" "HasTOKEN" "unknown" 160000 50000 0 0 0 100 ""]
+Element["" "Test_Point" "HasTOKEN" "unknown" 159000 9000 -1328 3904 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
-Element["" "Test_Point" "GetTOKEN" "unknown" 140000 50000 0 0 0 100 ""]
+Element["" "Test_Point" "GetTOKEN" "unknown" 142000 30000 0 4000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
-Element["" "Test_Point" "RX_D" "unknown" 130000 50000 0 0 0 100 ""]
+Element["" "Test_Point" "RX_D" "unknown" 142000 51000 1000 3000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
@@ -908,7 +908,7 @@ Element["" "0603" "R7" "10k" 98441 87508 -3150 -3150 0 100 ""]
 
 	)
 
-Element["" "Test_Point" "TX_EN" "unknown" 177441 89508 0 0 0 100 ""]
+Element["" "Test_Point" "TX_EN" "unknown" 177441 89508 0 3000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
@@ -940,7 +940,7 @@ Element["onsolder" "0603" "R3" "4k7" 46000 100016 -6709 8642 0 100 "auto"]
 
 	)
 
-Element["" "8P8C" "CONN1" "unknown" 57000 15000 -5000 0 0 100 ""]
+Element["" "8P8C" "CONN1" "unknown" 57000 15000 16328 2504 1 100 ""]
 (
 	Pin[10000 35000 6000 2000 6000 3500 "I7" "8" "edge2"]
 	Pin[0 30000 6000 2000 6000 3500 "I6" "7" "edge2"]
@@ -1047,7 +1047,7 @@ Element["onsolder" "SOT23" "Q4" "2N7002K" 43000 117700 12300 11000 3 100 "auto"]
 
 	)
 
-Element["" "Test_Point" "TX_D" "unknown" 110000 50000 0 0 0 100 ""]
+Element["" "Test_Point" "TX_D" "unknown" 139000 63000 1000 3000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
@@ -1066,19 +1066,19 @@ Element["onsolder" "0603" "C4" "100n" 13000 116000 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["" "Test_Point" "GND" "unknown" 179328 49096 0 0 0 100 ""]
+Element["" "Test_Point" "GND" "unknown" 179328 49096 1000 3000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
-Element["" "Test_Point" "3V3" "unknown" 169328 49096 0 0 0 100 ""]
+Element["" "Test_Point" "3V3" "unknown" 139000 7000 -328 3904 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
-Element["" "8P8C" "CONN2" "unknown" 57000 81000 21441 -12508 0 100 ""]
+Element["" "8P8C" "CONN2" "unknown" 57000 81000 16051 4051 1 100 ""]
 (
 	Pin[10000 35000 6000 2000 6000 3500 "I7" "8" "edge2"]
 	Pin[0 30000 6000 2000 6000 3500 "I6" "7" "edge2"]
@@ -1152,28 +1152,22 @@ Layer(1 "component")
 Layer(2 "solder")
 (
 )
-Layer(3 "outline")
+Layer(3 "GND-component")
 (
 )
-Layer(4 "GND")
+Layer(4 "power-component")
 (
 )
-Layer(5 "power")
+Layer(5 "GND-solder")
 (
 )
-Layer(6 "signal1")
+Layer(6 "power-solder")
 (
 )
-Layer(7 "signal2")
+Layer(7 "silk")
 (
 )
-Layer(8 "signal3")
-(
-)
-Layer(9 "silk")
-(
-)
-Layer(10 "silk")
+Layer(8 "silk")
 (
 )
 NetList()
