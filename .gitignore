@@ -1,2 +1,5 @@
 *~
 *.backup
+*.net
+*.cmd
+*.pcb-
