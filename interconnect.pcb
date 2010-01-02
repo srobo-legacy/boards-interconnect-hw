@@ -1,15 +1,15 @@
 # release: pcb 20091103
-# date:    Sat Jan  2 00:00:31 2010
+# date:    Sat Jan  2 00:09:59 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["" 196850 196850]
+PCB["" 120000 155000]
 
-Grid[1000.000000 0 0 0]
-Cursor[0 196850 0.000000]
+Grid[787.401550 0 0 0]
+Cursor[0 -41850 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 1000 600 600 1500 800]
