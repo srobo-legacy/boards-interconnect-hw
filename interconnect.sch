@@ -34,7 +34,7 @@ refdes=U4
 T 53500 42640 5 10 0 0 0 6 1
 device=PIC10F200
 T 53800 41300 5 10 0 1 0 6 1
-footprint=SOT26
+footprint=SOT262
 }
 C 44100 47200 1 0 0 rj45-1.sym
 {
