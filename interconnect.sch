@@ -18,7 +18,7 @@ refdes=U3
 T 48600 39700 5 10 0 0 0 0 1
 footprint=SO8
 T 47500 42200 5 10 1 1 0 0 1
-value=sr-ic-SN75179B
+value=sr-ic-sn75179b
 }
 C 53100 44500 1 0 1 SN65176B-1.sym
 {
@@ -29,7 +29,7 @@ refdes=U2
 T 53100 44500 5 10 0 0 0 0 1
 footprint=SO8
 T 52000 47200 5 10 1 1 0 0 1
-value=sr-ic-SN65176B
+value=sr-ic-sn65176b
 }
 C 53800 41300 1 0 1 PIC10F200-1.sym
 {
@@ -40,7 +40,7 @@ device=PIC10F200
 T 53800 41300 5 10 0 1 0 6 1
 footprint=SOT262
 T 52200 42600 5 10 1 1 0 0 1
-value=sr-ic-PIC10F200
+value=sr-ic-pic10f200
 }
 C 44100 47200 1 0 0 rj45-1.sym
 {
@@ -53,7 +53,7 @@ footprint=8P8C
 T 44600 49100 5 10 1 1 0 0 1
 comment=IN
 T 44100 47000 5 10 1 1 0 0 1
-value=sr-cn-8P8C
+value=sr-cn-8p8c
 }
 C 44100 43700 1 0 0 rj45-1.sym
 {
@@ -66,7 +66,7 @@ footprint=8P8C
 T 44500 45600 5 10 1 1 0 0 1
 comment=OUT
 T 44100 43500 5 10 1 1 0 0 1
-value=sr-cn-8P8C
+value=sr-cn-8p8c
 }
 N 45000 48400 45600 48400 4
 {
@@ -388,7 +388,7 @@ device=regulator
 T 48300 49525 5 10 1 1 0 6 1
 refdes=U1
 T 48400 49500 5 10 1 1 0 0 1
-value=sr-ic-TS78L05ACY
+value=sr-ic-ts78l05
 T 47800 48600 5 10 0 1 0 0 1
 footprint=SOT89
 }
@@ -463,7 +463,7 @@ device=DIODE
 T 54150 49650 5 10 1 1 0 0 1
 refdes=D1
 T 54100 49500 5 10 1 1 0 0 1
-value=sr-d-LL4448
+value=sr-d-ll4448
 T 54800 49000 5 10 0 1 0 6 1
 footprint=SOD80
 }
@@ -474,7 +474,7 @@ device=DIODE
 T 49050 40950 5 10 1 1 0 0 1
 refdes=D2
 T 48700 40800 5 10 1 1 0 0 1
-value=sr-d-LL4448
+value=sr-d-ll4448
 T 49700 40300 5 10 0 1 0 6 1
 footprint=SOD80
 }
