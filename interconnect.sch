@@ -511,5 +511,5 @@ symversion=0.1
 T 49400 48600 5 10 1 1 0 0 1
 value=sr-c-2u2-0805
 T 49300 48300 5 10 0 1 0 0 1
-footprint=0603
+footprint=0805
 }
