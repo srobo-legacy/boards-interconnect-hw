@@ -467,7 +467,7 @@ value=sr-d-ll4448
 T 49700 40300 5 10 0 1 0 6 1
 footprint=SOD80
 }
-T 46300 45500 9 10 1 0 0 0 5
+T 46700 43700 9 10 1 0 0 0 5
 PIC powered through diode D1 to allow it to be
 programmed with the board powered down.
 
@@ -512,4 +512,48 @@ T 49400 48600 5 10 1 1 0 0 1
 value=sr-c-2u2-0805
 T 49300 48300 5 10 0 1 0 0 1
 footprint=0805
+}
+C 53300 45300 1 270 0 resistor-2.sym
+{
+T 53650 44900 5 10 0 0 270 0 1
+device=RESISTOR
+T 53600 44900 5 10 1 1 0 0 1
+refdes=R4
+T 53300 45300 5 10 0 1 270 0 1
+footprint=0603
+T 53600 44700 5 10 1 1 0 0 1
+value=sr-r-1k
+}
+C 53300 44100 1 0 0 gnd-1.sym
+C 48100 47000 1 270 0 led-1.sym
+{
+T 48700 46200 5 10 0 0 270 0 1
+device=LED
+T 48800 46600 5 10 1 1 0 0 1
+refdes=LED1
+T 48900 46200 5 10 0 0 270 0 1
+symversion=0.1
+T 48800 46400 5 10 1 1 0 0 1
+value=sr-led-red
+T 48100 47000 5 10 0 1 0 0 1
+footprint=0603
+}
+C 47100 47000 1 0 0 resistor-2.sym
+{
+T 47500 47350 5 10 0 0 0 0 1
+device=RESISTOR
+T 47200 47300 5 10 1 1 0 0 1
+refdes=R5
+T 47600 47300 5 10 1 1 0 0 1
+value=sr-r-1k
+T 47100 47000 5 10 0 1 270 0 1
+footprint=0603
+}
+N 48000 47100 48300 47100 4
+N 48300 47100 48300 47000 4
+C 48200 45800 1 0 0 gnd-1.sym
+N 47100 47100 46700 47100 4
+{
+T 46800 47100 5 10 1 1 0 0 1
+netname=5V
 }
