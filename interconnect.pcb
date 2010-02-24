@@ -829,7 +829,7 @@ Via[49000 58000 3600 2000 0 2000 "" "thermal(0S,1S)"]
 Via[55000 58000 3600 2000 0 2000 "" "thermal(0S,1S)"]
 Via[12500 131000 3600 2000 0 2000 "" ""]
 
-Element["found,onsolder" "0805" "S1/C2" "sr-c-2u2-0805" 6957 66543 1650 -6850 3 78 "auto"]
+Element["found,onsolder" "0805" "C2" "sr-c-2u2-0805" 6957 66543 1650 -6850 3 78 "auto"]
 (
 	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -838,14 +838,14 @@ Element["found,onsolder" "0805" "S1/C2" "sr-c-2u2-0805" 6957 66543 1650 -6850 3 
 
 	)
 
-Element["onsolder" "0603" "S1/C4" "sr-c-100n" 18500 113000 -9874 11091 3 78 "auto"]
+Element["onsolder" "0603" "C4" "sr-c-100n" 18500 113000 -9874 11091 3 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SOD80" "S1/D1" "sr-d-ll4448" 12000 137500 12500 7600 0 78 "auto"]
+Element["onsolder" "SOD80" "D1" "sr-d-ll4448" 12000 137500 12500 7600 0 78 "auto"]
 (
 	Pad[5800 -1600 5800 1600 5300 2000 5900 "1" "1" "onsolder,square"]
 	Pad[-5800 -1600 -5800 1600 5300 2000 5900 "2" "2" "onsolder,square"]
@@ -858,7 +858,7 @@ Element["onsolder" "SOD80" "S1/D1" "sr-d-ll4448" 12000 137500 12500 7600 0 78 "a
 
 	)
 
-Element["" "JUMPER5" "S1/J3" "sr-cn-header4" 7500 148500 50800 -7200 3 78 ""]
+Element["" "JUMPER5" "J3" "sr-cn-header4" 7500 148500 50800 -7200 3 78 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -874,7 +874,7 @@ Element["" "JUMPER5" "S1/J3" "sr-cn-header4" 7500 148500 50800 -7200 3 78 ""]
 
 	)
 
-Element["" "SOD80" "S1/D2" "sr-d-ll4448" 12000 137500 12300 -4800 0 78 ""]
+Element["" "SOD80" "D2" "sr-d-ll4448" 12000 137500 12300 -4800 0 78 ""]
 (
 	Pad[5800 -1600 5800 1600 5300 2000 5900 "1" "1" "square"]
 	Pad[-5800 -1600 -5800 1600 5300 2000 5900 "2" "2" "square"]
@@ -887,14 +887,14 @@ Element["" "SOD80" "S1/D2" "sr-d-ll4448" 12000 137500 12300 -4800 0 78 ""]
 
 	)
 
-Element["onsolder" "0603" "S1/C6" "sr-c-100n" 28500 128500 -2768 12209 0 78 "auto"]
+Element["onsolder" "0603" "C6" "sr-c-100n" 28500 128500 -2768 12209 0 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SOT223" "S1/U1" "sr-ic-ld1117s50" 29100 74500 20900 10300 0 78 "auto"]
+Element["onsolder" "SOT223" "U1" "sr-ic-ld1117s50" 29100 74500 20900 10300 0 78 "auto"]
 (
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
@@ -907,21 +907,21 @@ Element["onsolder" "SOT223" "S1/U1" "sr-ic-ld1117s50" 29100 74500 20900 10300 0 
 
 	)
 
-Element["onsolder" "0603" "S1/R3" "sr-r-10k" 28500 117500 6150 3650 3 67 "auto"]
+Element["onsolder" "0603" "R3" "sr-r-10k" 28500 117500 6150 3650 3 67 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "S1/R2" "sr-r-10k" 52500 125000 -5032 6650 0 78 "auto"]
+Element["onsolder" "0603" "R2" "sr-r-10k" 52500 125000 -5032 6650 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "0603" "S1/R1" "sr-r-10k" 52500 133500 -4650 6650 0 78 "auto"]
+Element["onsolder" "0603" "R1" "sr-r-10k" 52500 133500 -4650 6650 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -934,14 +934,14 @@ Element["" "Test_Point" "5V" "sr-nothing" 64500 65500 -1559 2000 0 100 ""]
 
 	)
 
-Element["onsolder" "0603" "S1/C5" "sr-c-100n" 16000 45500 -6669 -1783 0 78 "auto"]
+Element["onsolder" "0603" "C5" "sr-c-100n" 16000 45500 -6669 -1783 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["onsolder" "SO8" "S1/U3" "sr-ic-sn75179b" 19000 99500 3000 -10000 0 78 "auto"]
+Element["onsolder" "SO8" "U3" "sr-ic-sn75179b" 19000 99500 3000 -10000 0 78 "auto"]
 (
 	Pad[-13500 7500 -7000 7500 2000 1000 3000 "Vcc" "1" "onsolder,square"]
 	Pad[-13500 2500 -7000 2500 2000 1000 3000 "R" "2" "onsolder,square"]
@@ -960,14 +960,14 @@ Element["onsolder" "SO8" "S1/U3" "sr-ic-sn75179b" 19000 99500 3000 -10000 0 78 "
 
 	)
 
-Element["onsolder" "0603" "S1/C3" "sr-c-470n" 20000 66500 -11350 20150 3 78 "auto"]
+Element["onsolder" "0603" "C3" "sr-c-470n" 20000 66500 -11350 20150 3 78 "auto"]
 (
 	Pad[-492 2559 492 2559 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-492 -2559 492 -2559 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["" "8P8C" "S1/J1" "sr-cn-8p8c" 40500 82500 20500 -14000 3 78 ""]
+Element["" "8P8C" "J1" "sr-cn-8p8c" 40500 82500 20500 -14000 3 78 ""]
 (
 	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
 	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
@@ -985,7 +985,7 @@ Element["" "8P8C" "S1/J1" "sr-cn-8p8c" 40500 82500 20500 -14000 3 78 ""]
 
 	)
 
-Element["onsolder" "SOT262" "S1/U4" "sr-ic-pic10f200" 36500 124400 4100 20400 0 78 "auto"]
+Element["onsolder" "SOT262" "U4" "sr-ic-pic10f200" 36500 124400 4100 20400 0 78 "auto"]
 (
 	Pad[0 -800 0 800 2400 3000 3000 "GP0/ICSPDAT" "1" "onsolder,square"]
 	Pad[3900 -800 3900 800 2400 3000 3000 "Vss" "2" "onsolder,square"]
@@ -1014,7 +1014,7 @@ Element["" "Test_Point" "HasTOKEN" "sr-nothing" 64500 83500 -1500 2000 0 100 ""]
 
 	)
 
-Element["onsolder" "0603" "S1/C1" "sr-c-470n" 28941 47500 -5327 -1842 0 78 "auto"]
+Element["onsolder" "0603" "C1" "sr-c-470n" 28941 47500 -5327 -1842 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
@@ -1027,7 +1027,7 @@ Element["" "Test_Point" "GND" "sr-nothing" 64500 53500 -2000 2000 0 100 ""]
 
 	)
 
-Element["onsolder" "SO8" "S1/U2" "sr-ic-sn65176b" 19500 29500 2500 -10000 0 78 "auto"]
+Element["onsolder" "SO8" "U2" "sr-ic-sn65176b" 19500 29500 2500 -10000 0 78 "auto"]
 (
 	Pad[7000 -7500 13500 -7500 2000 1000 3000 "R" "1" "onsolder,square,edge2"]
 	Pad[7000 -2500 13500 -2500 2000 1000 3000 "2" "2" "onsolder,square,edge2"]
@@ -1052,7 +1052,7 @@ Element["" "Test_Point" "12V" "sr-nothing" 64500 40000 -2000 2000 0 100 ""]
 
 	)
 
-Element["" "8P8C" "S1/J2" "sr-cn-8p8c" 40500 15000 20500 -14000 3 78 ""]
+Element["" "8P8C" "J2" "sr-cn-8p8c" 40500 15000 20500 -14000 3 78 ""]
 (
 	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
 	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
@@ -1088,21 +1088,21 @@ Element["" "Test_Point" "TX_D" "sr-nothing" 64500 28500 -2000 2000 0 100 ""]
 
 	)
 
-Element["onsolder" "0603" "S1/R4" "sr-r-1k" 29559 7000 5673 2650 0 78 "auto"]
+Element["onsolder" "0603" "R4" "sr-r-1k" 29559 7000 5673 2650 0 78 "auto"]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
-Element["" "0603" "S1/R5" "sr-r-1k" 48000 135000 5350 -2650 0 78 ""]
+Element["" "0603" "R5" "sr-r-1k" 48000 135000 5350 -2650 0 78 ""]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "square"]
 
 	)
 
-Element["" "0603" "S1/LED1" "sr-led-red" 48000 140000 -22209 -2150 0 78 ""]
+Element["" "0603" "LED1" "sr-led-red" 48000 140000 -22209 -2150 0 78 ""]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "A" "1" "square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "K" "2" "square"]
@@ -1426,146 +1426,146 @@ NetList()
 	Net("5V" "(unknown)")
 	(
 		Connect("5V-1")
-		Connect("S1/C2-2")
-		Connect("S1/C3-2")
-		Connect("S1/C4-1")
-		Connect("S1/C5-1")
-		Connect("S1/D1-2")
-		Connect("S1/R5-1")
-		Connect("S1/U1-2")
-		Connect("S1/U2-8")
-		Connect("S1/U3-1")
+		Connect("C2-2")
+		Connect("C3-2")
+		Connect("C4-1")
+		Connect("C5-1")
+		Connect("D1-2")
+		Connect("R5-1")
+		Connect("U1-2")
+		Connect("U2-8")
+		Connect("U3-1")
 	)
 	Net("12V" "(unknown)")
 	(
 		Connect("12V-1")
-		Connect("S1/C1-2")
-		Connect("S1/J1-3")
-		Connect("S1/J1-4")
-		Connect("S1/J2-3")
-		Connect("S1/J2-4")
-		Connect("S1/U1-3")
+		Connect("C1-2")
+		Connect("J1-3")
+		Connect("J1-4")
+		Connect("J2-3")
+		Connect("J2-4")
+		Connect("U1-3")
 	)
 	Net("D_A" "(unknown)")
 	(
-		Connect("S1/J1-7")
-		Connect("S1/J2-7")
-		Connect("S1/U2-6")
+		Connect("J1-7")
+		Connect("J2-7")
+		Connect("U2-6")
 	)
 	Net("D_B" "(unknown)")
 	(
-		Connect("S1/J1-8")
-		Connect("S1/J2-8")
-		Connect("S1/U2-7")
+		Connect("J1-8")
+		Connect("J2-8")
+		Connect("U2-7")
 	)
 	Net("GND" "(unknown)")
 	(
 		Connect("GND-1")
-		Connect("S1/C1-1")
-		Connect("S1/C2-1")
-		Connect("S1/C3-1")
-		Connect("S1/C4-2")
-		Connect("S1/C5-2")
-		Connect("S1/C6-2")
-		Connect("S1/J1-5")
-		Connect("S1/J1-6")
-		Connect("S1/J2-5")
-		Connect("S1/J2-6")
-		Connect("S1/J3-3")
-		Connect("S1/LED1-2")
-		Connect("S1/R3-2")
-		Connect("S1/R4-2")
-		Connect("S1/U1-1")
-		Connect("S1/U2-2")
-		Connect("S1/U2-5")
-		Connect("S1/U3-4")
-		Connect("S1/U4-2")
+		Connect("C1-1")
+		Connect("C2-1")
+		Connect("C3-1")
+		Connect("C4-2")
+		Connect("C5-2")
+		Connect("C6-2")
+		Connect("J1-5")
+		Connect("J1-6")
+		Connect("J2-5")
+		Connect("J2-6")
+		Connect("J3-3")
+		Connect("LED1-2")
+		Connect("R3-2")
+		Connect("R4-2")
+		Connect("U1-1")
+		Connect("U2-2")
+		Connect("U2-5")
+		Connect("U3-4")
+		Connect("U4-2")
 	)
 	Net("ICSPCLK" "(unknown)")
 	(
-		Connect("S1/J3-5")
-		Connect("S1/R2-1")
-		Connect("S1/U4-3")
+		Connect("J3-5")
+		Connect("R2-1")
+		Connect("U4-3")
 	)
 	Net("ICSPDAT" "(unknown)")
 	(
-		Connect("S1/J3-4")
-		Connect("S1/R1-1")
-		Connect("S1/U4-1")
+		Connect("J3-4")
+		Connect("R1-1")
+		Connect("U4-1")
 	)
 	Net("nC5V" "(unknown)")
 	(
-		Connect("S1/C6-1")
-		Connect("S1/D1-1")
-		Connect("S1/J3-2")
-		Connect("S1/U4-5")
+		Connect("C6-1")
+		Connect("D1-1")
+		Connect("J3-2")
+		Connect("U4-5")
 	)
 	Net("TI_A" "(unknown)")
 	(
-		Connect("S1/J1-1")
-		Connect("S1/U3-8")
+		Connect("J1-1")
+		Connect("U3-8")
 	)
 	Net("TI_B" "(unknown)")
 	(
-		Connect("S1/J1-2")
-		Connect("S1/U3-7")
+		Connect("J1-2")
+		Connect("U3-7")
 	)
 	Net("TO_A" "(unknown)")
 	(
-		Connect("S1/J2-1")
-		Connect("S1/U3-5")
+		Connect("J2-1")
+		Connect("U3-5")
 	)
 	Net("TO_B" "(unknown)")
 	(
-		Connect("S1/J2-2")
-		Connect("S1/U3-6")
+		Connect("J2-2")
+		Connect("U3-6")
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("S1/D2-2")
-		Connect("S1/U3-2")
+		Connect("D2-2")
+		Connect("U3-2")
 	)
 	Net("unnamed_net2" "(unknown)")
 	(
-		Connect("S1/U3-3")
-		Connect("S1/U4-4")
+		Connect("U3-3")
+		Connect("U4-4")
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
 		Connect("RX_D-1")
-		Connect("S1/R4-1")
-		Connect("S1/U2-1")
+		Connect("R4-1")
+		Connect("U2-1")
 	)
 	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("S1/U2-4")
+		Connect("U2-4")
 		Connect("TX_D-1")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
-		Connect("S1/U2-3")
+		Connect("U2-3")
 		Connect("TX_EN-1")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
 		Connect("HasTOKEN-1")
-		Connect("S1/R1-2")
+		Connect("R1-2")
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
 		Connect("GetTOKEN-1")
-		Connect("S1/R2-2")
+		Connect("R2-2")
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("S1/LED1-1")
-		Connect("S1/R5-2")
+		Connect("LED1-1")
+		Connect("R5-2")
 	)
 	Net("Vpp" "(unknown)")
 	(
-		Connect("S1/D2-1")
-		Connect("S1/J3-1")
-		Connect("S1/R3-1")
-		Connect("S1/U4-6")
+		Connect("D2-1")
+		Connect("J3-1")
+		Connect("R3-1")
+		Connect("U4-6")
 	)
 )
