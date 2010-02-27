@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Tue Feb 23 20:13:24 2010
+# date:    Sat Feb 27 14:46:07 2010
 # user:    richard (Richard Barlow)
 # host:    localhost
 
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 92000 155000]
 
 Grid[500.000000 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[0 155000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[700 700 700 700 1500 700]
@@ -1088,10 +1088,10 @@ Element["" "Test_Point" "TX_D" "sr-nothing" 64500 28500 -2000 2000 0 100 ""]
 
 	)
 
-Element["onsolder" "0603" "R4" "sr-r-1k" 29559 7000 5673 2650 0 78 "auto"]
+Element["onsolder" "0603" "R4" "sr-r-1k" 29500 6500 6173 2150 0 78 "auto"]
 (
-	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
-	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
+	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
 
 	)
 
@@ -1334,8 +1334,8 @@ Layer(2 "solder")
 	Line[14000 34500 3500 34500 1000 2000 ""]
 	Line[36000 47000 36000 44000 1000 2000 "clearline"]
 	Line[34200 95800 34700 95300 700 1400 ""]
-	Line[32000 14000 29500 16500 1000 2000 ""]
-	Line[29500 16500 29750 22000 1000 2000 "rubberend"]
+	Line[50500 7000 51000 7500 1000 2000 ""]
+	Line[12500 131400 6700 137200 700 1400 ""]
 	Line[51000 13000 49000 13000 1000 2000 ""]
 	Line[49000 13000 46000 10000 1000 2000 ""]
 	Line[46000 10000 35000 10000 1000 2000 ""]
@@ -1396,15 +1396,13 @@ Layer(2 "solder")
 	Line[60000 76500 60000 55000 4000 2000 ""]
 	Line[60000 55000 59500 54500 4000 2000 ""]
 	Line[59500 54500 54000 54500 4000 2000 ""]
-	Line[32000 7000 32000 14000 1000 2000 ""]
-	Line[32000 7000 50500 7000 1000 2000 ""]
-	Line[50500 7000 51000 7500 1000 2000 ""]
-	Line[27000 7000 27000 12000 1000 2000 ""]
-	Line[27000 12000 23000 16000 1000 2000 ""]
-	Line[23000 16000 23000 25000 1000 2000 ""]
-	Line[23000 25000 25000 27000 1000 2000 ""]
 	Line[12500 131000 12500 131400 700 1400 ""]
-	Line[12500 131400 6700 137200 700 1400 ""]
+	Line[26941 6500 26941 11941 1000 2000 ""]
+	Line[26941 11941 30000 15000 1000 2000 ""]
+	Line[30000 15000 30000 21750 1000 2000 ""]
+	Line[30000 21750 29750 22000 1000 2000 ""]
+	Line[32059 6500 50000 6500 1000 2000 ""]
+	Line[50000 6500 51000 7500 1000 2000 ""]
 	Arc[20500 97500 3500 3500 1000 2000 0 90 ""]
 	Polygon("clearpoly")
 	(
@@ -1460,13 +1458,13 @@ NetList()
 	)
 	Net("GND" "(unknown)")
 	(
-		Connect("GND-1")
 		Connect("C1-1")
 		Connect("C2-1")
 		Connect("C3-1")
 		Connect("C4-2")
 		Connect("C5-2")
 		Connect("C6-2")
+		Connect("GND-1")
 		Connect("J1-5")
 		Connect("J1-6")
 		Connect("J2-5")
@@ -1474,7 +1472,6 @@ NetList()
 		Connect("J3-3")
 		Connect("LED1-2")
 		Connect("R3-2")
-		Connect("R4-2")
 		Connect("U1-1")
 		Connect("U2-2")
 		Connect("U2-5")
@@ -1532,19 +1529,18 @@ NetList()
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("RX_D-1")
 		Connect("R4-1")
 		Connect("U2-1")
 	)
 	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("U2-4")
 		Connect("TX_D-1")
+		Connect("U2-4")
 	)
 	Net("unnamed_net5" "(unknown)")
 	(
-		Connect("U2-3")
 		Connect("TX_EN-1")
+		Connect("U2-3")
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
@@ -1557,6 +1553,11 @@ NetList()
 		Connect("R2-2")
 	)
 	Net("unnamed_net8" "(unknown)")
+	(
+		Connect("R4-2")
+		Connect("RX_D-1")
+	)
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("LED1-1")
 		Connect("R5-2")
