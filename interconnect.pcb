@@ -1,7 +1,7 @@
-# release: pcb 1.99z
-# date:    Sun Feb 28 02:48:33 2010
-# user:    richard (Richard Barlow)
-# host:    localhost
+# release: pcb 20091103
+# date:    Sun Feb 28 18:54:28 2010
+# user:    rob (Robert Spanton)
+# host:    zarniwoop.blob
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
@@ -901,7 +901,7 @@ Element["onsolder" "SOT223" "U1" "sr-ic-ld1117s50" 29100 74500 20900 10300 0 78 
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
 	Pad[-3300 -18100 3300 -18100 5600 3000 6200 "IN" "3" "onsolder,square"]
-	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,edge2"]
+	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,warn,edge2"]
 	ElementLine [32900 -23300 32900 5200 1000]
 	ElementLine [-8500 -23300 32900 -23300 1000]
 	ElementLine [-8500 -23300 -8500 5200 1000]
@@ -966,24 +966,6 @@ Element["onsolder" "0603" "C3" "sr-c-470n" 8000 86500 4791 2650 0 78 "auto"]
 (
 	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
-
-	)
-
-Element["" "8P8C" "J1" "sr-cn-8p8c" 40500 82500 20500 -14000 3 78 ""]
-(
-	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
-	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
-	Pin[10000 15000 6000 2000 7000 3500 "I3" "4" ""]
-	Pin[0 10000 6000 2000 7000 3500 "I2" "3" ""]
-	Pin[0 20000 6000 2000 7000 3500 "I4" "5" ""]
-	Pin[0 0 6000 2000 7000 3500 "I0" "1" "square"]
-	Pin[10000 5000 6000 2000 7000 3500 "I1" "2" ""]
-	Pin[10000 25000 6000 2000 7000 3500 "I5" "6" ""]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole"]
-	ElementLine [-39775 49500 15000 49500 1000]
-	ElementLine [15000 49500 15000 -14500 1000]
-	ElementLine [-39775 -14500 15000 -14500 1000]
 
 	)
 
@@ -1054,24 +1036,6 @@ Element["" "Test_Point" "12V" "sr-nothing" 64500 40000 -2000 2000 0 100 ""]
 
 	)
 
-Element["" "8P8C" "J2" "sr-cn-8p8c" 40500 15000 20500 -14000 3 78 ""]
-(
-	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
-	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
-	Pin[10000 15000 6000 2000 7000 3500 "I3" "4" ""]
-	Pin[0 10000 6000 2000 7000 3500 "I2" "3" ""]
-	Pin[0 20000 6000 2000 7000 3500 "I4" "5" ""]
-	Pin[0 0 6000 2000 7000 3500 "I0" "1" "square"]
-	Pin[10000 5000 6000 2000 7000 3500 "I1" "2" ""]
-	Pin[10000 25000 6000 2000 7000 3500 "I5" "6" ""]
-	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole"]
-	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole"]
-	ElementLine [-39775 49500 15000 49500 1000]
-	ElementLine [15000 49500 15000 -14500 1000]
-	ElementLine [-39775 -14500 15000 -14500 1000]
-
-	)
-
 Element["" "Test_Point" "TX_EN" "sr-nothing" 64500 18000 -2000 2000 0 100 ""]
 (
 	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
@@ -1123,6 +1087,42 @@ Element["" "dual_led" "LED1" "sr-led-redgreen" 36843 139300 11000 -6500 0 78 ""]
 	ElementLine [6300 5300 6300 -5300 1000]
 	ElementLine [-6300 5300 6300 5300 1000]
 	ElementLine [-6300 -5300 -6300 5300 1000]
+
+	)
+
+Element["" "8P8C" "S1/J2" "sr-cn-8p8c" 40300 14900 -5000 0 0 100 ""]
+(
+	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
+	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
+	Pin[10000 15000 6000 2000 7000 3500 "I3" "4" ""]
+	Pin[0 10000 6000 2000 7000 3500 "I2" "3" ""]
+	Pin[0 20000 6000 2000 7000 3500 "I4" "5" ""]
+	Pin[0 0 6000 2000 7000 3500 "I0" "1" "square"]
+	Pin[10000 5000 6000 2000 7000 3500 "I1" "2" ""]
+	Pin[10000 25000 6000 2000 7000 3500 "I5" "6" ""]
+	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole"]
+	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole"]
+	ElementLine [-39775 -14500 15000 -14500 1000]
+	ElementLine [15000 49500 15000 -14500 1000]
+	ElementLine [-39775 49500 15000 49500 1000]
+
+	)
+
+Element["" "8P8C" "S1/J1" "sr-cn-8p8c" 40359 82908 -5000 0 0 100 ""]
+(
+	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
+	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
+	Pin[10000 15000 6000 2000 7000 3500 "I3" "4" ""]
+	Pin[0 10000 6000 2000 7000 3500 "I2" "3" ""]
+	Pin[0 20000 6000 2000 7000 3500 "I4" "5" ""]
+	Pin[0 0 6000 2000 7000 3500 "I0" "1" "square"]
+	Pin[10000 5000 6000 2000 7000 3500 "I1" "2" ""]
+	Pin[10000 25000 6000 2000 7000 3500 "I5" "6" ""]
+	Pin[-25000 -5000 12800 2000 12800 12800 "" "" "hole"]
+	Pin[-25000 40000 12800 2000 12800 12800 "" "" "hole"]
+	ElementLine [-39775 -14500 15000 -14500 1000]
+	ElementLine [15000 49500 15000 -14500 1000]
+	ElementLine [-39775 49500 15000 49500 1000]
 
 	)
 Layer(1 "component")
@@ -1487,22 +1487,22 @@ NetList()
 	(
 		Connect("12V-1")
 		Connect("C1-2")
-		Connect("J1-3")
-		Connect("J1-4")
-		Connect("J2-3")
-		Connect("J2-4")
+		Connect("S1/J1-3")
+		Connect("S1/J1-4")
+		Connect("S1/J2-3")
+		Connect("S1/J2-4")
 		Connect("U1-3")
 	)
 	Net("D_A" "(unknown)")
 	(
-		Connect("J1-7")
-		Connect("J2-7")
+		Connect("S1/J1-7")
+		Connect("S1/J2-7")
 		Connect("U2-6")
 	)
 	Net("D_B" "(unknown)")
 	(
-		Connect("J1-8")
-		Connect("J2-8")
+		Connect("S1/J1-8")
+		Connect("S1/J2-8")
 		Connect("U2-7")
 	)
 	Net("GND" "(unknown)")
@@ -1514,14 +1514,14 @@ NetList()
 		Connect("C5-2")
 		Connect("C6-2")
 		Connect("GND-1")
-		Connect("J1-5")
-		Connect("J1-6")
-		Connect("J2-5")
-		Connect("J2-6")
 		Connect("J3-3")
 		Connect("LED1-2")
 		Connect("LED1-4")
 		Connect("R3-2")
+		Connect("S1/J1-5")
+		Connect("S1/J1-6")
+		Connect("S1/J2-5")
+		Connect("S1/J2-6")
 		Connect("U1-1")
 		Connect("U2-2")
 		Connect("U2-5")
@@ -1555,22 +1555,22 @@ NetList()
 	)
 	Net("TI_A" "(unknown)")
 	(
-		Connect("J1-1")
+		Connect("S1/J1-1")
 		Connect("U3-8")
 	)
 	Net("TI_B" "(unknown)")
 	(
-		Connect("J1-2")
+		Connect("S1/J1-2")
 		Connect("U3-7")
 	)
 	Net("TO_A" "(unknown)")
 	(
-		Connect("J2-1")
+		Connect("S1/J2-1")
 		Connect("U3-5")
 	)
 	Net("TO_B" "(unknown)")
 	(
-		Connect("J2-2")
+		Connect("S1/J2-2")
 		Connect("U3-6")
 	)
 	Net("unnamed_net1" "(unknown)")
