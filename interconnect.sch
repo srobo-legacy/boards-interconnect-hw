@@ -528,19 +528,6 @@ footprint=0603
 T 55300 45500 5 10 1 1 0 0 1
 value=sr-r-10k
 }
-C 47900 47000 1 270 0 led-1.sym
-{
-T 48500 46200 5 10 0 0 270 0 1
-device=LED
-T 48600 46600 5 10 1 1 0 0 1
-refdes=LED1
-T 48700 46200 5 10 0 0 270 0 1
-symversion=0.1
-T 48600 46400 5 10 1 1 0 0 1
-value=sr-led-green-plcc2
-T 47900 47000 5 10 0 1 0 0 1
-footprint=PLCC2
-}
 C 46900 47000 1 0 0 resistor-2.sym
 {
 T 47300 47350 5 10 0 0 0 0 1
@@ -561,19 +548,6 @@ T 46600 47100 5 10 1 1 0 0 1
 netname=5V
 }
 N 54800 45300 53100 45300 4
-C 47900 45500 1 270 0 led-1.sym
-{
-T 48500 44700 5 10 0 0 270 0 1
-device=LED
-T 48600 45100 5 10 1 1 0 0 1
-refdes=LED2
-T 48700 44700 5 10 0 0 270 0 1
-symversion=0.1
-T 48600 44900 5 10 1 1 0 0 1
-value=sr-led-red-plcc2
-T 47900 45500 5 10 0 1 0 0 1
-footprint=PLCC2
-}
 C 46900 45500 1 0 0 resistor-2.sym
 {
 T 47300 45850 5 10 0 0 0 0 1
@@ -592,4 +566,28 @@ N 46900 45600 46500 45600 4
 {
 T 46600 45600 5 10 1 1 0 0 1
 netname=TI
+}
+C 47900 47000 1 270 0 leddual-3.sym
+{
+T 49800 46900 5 10 0 0 270 0 1
+device=LED
+T 48600 46600 5 10 1 1 0 0 1
+refdes=LED1
+T 49400 46900 5 10 0 0 270 0 1
+footprint=dual_led
+T 48600 46400 5 10 1 1 0 0 1
+value=sr-led-redgreen
+}
+C 47900 45500 1 270 0 leddual-3.sym
+{
+T 49800 45400 5 10 0 0 270 0 1
+device=LED
+T 48600 45100 5 10 1 1 0 0 1
+refdes=LED1
+T 49400 45400 5 10 0 0 270 0 1
+footprint=dual_led
+T 49000 45400 5 10 0 0 270 0 1
+slot=2
+T 48600 44900 5 10 1 1 0 0 1
+value=sr-led-redgreen
 }
