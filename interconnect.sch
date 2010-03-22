@@ -234,6 +234,8 @@ T 61800 46400 5 10 1 1 180 6 1
 refdes=TX_EN
 T 61700 46200 5 10 0 1 0 0 1
 value=sr-nothing
+T 61700 46200 5 10 0 0 0 0 1
+footprint=none
 }
 C 61700 45500 1 0 1 in-1.sym
 {
@@ -243,6 +245,8 @@ T 61800 45700 5 10 1 1 180 6 1
 refdes=TX_D
 T 61700 45500 5 10 0 1 0 0 1
 value=sr-nothing
+T 61700 45500 5 10 0 0 0 0 1
+footprint=none
 }
 C 61100 44800 1 0 0 out-1.sym
 {
@@ -252,6 +256,8 @@ T 61800 45000 5 10 1 1 0 2 1
 refdes=RX_D
 T 61100 44800 5 10 0 1 0 0 1
 value=sr-nothing
+T 61100 44800 5 10 0 0 0 0 1
+footprint=none
 }
 C 61700 41400 1 0 1 in-1.sym
 {
@@ -261,6 +267,8 @@ T 61800 41600 5 10 1 1 180 6 1
 refdes=GetTOKEN
 T 61700 41400 5 10 0 1 0 0 1
 value=sr-nothing
+T 61700 41400 5 10 0 0 0 0 1
+footprint=none
 }
 C 61100 42000 1 0 0 out-1.sym
 {
@@ -270,6 +278,8 @@ T 61800 42200 5 10 1 1 0 2 1
 refdes=HasTOKEN
 T 61100 42000 5 10 0 1 0 0 1
 value=sr-nothing
+T 61100 42000 5 10 0 0 0 0 1
+footprint=none
 }
 C 61100 49100 1 0 0 out-1.sym
 {
@@ -279,6 +289,8 @@ T 61800 49300 5 10 1 1 0 2 1
 refdes=GND
 T 61100 49100 5 10 0 1 0 0 1
 value=sr-nothing
+T 61100 49100 5 10 0 0 0 0 1
+footprint=none
 }
 C 61100 50300 1 0 0 out-1.sym
 {
@@ -288,6 +300,8 @@ T 61800 50500 5 10 1 1 0 2 1
 refdes=12V
 T 61100 50300 5 10 0 1 0 0 1
 value=sr-nothing
+T 61100 50300 5 10 0 0 0 0 1
+footprint=none
 }
 N 61100 45600 58800 45600 4
 N 58800 45600 58800 45900 4
@@ -398,6 +412,8 @@ T 61800 49900 5 10 1 1 0 2 1
 refdes=5V
 T 61100 49700 5 10 0 1 0 0 1
 value=sr-nothing
+T 61100 49700 5 10 0 0 0 0 1
+footprint=none
 }
 C 47200 49900 1 90 0 capacitor-1.sym
 {
