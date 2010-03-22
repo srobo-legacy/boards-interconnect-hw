@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Tue Mar 16 03:43:21 2010
+# date:    Mon Mar 22 19:13:18 2010
 # user:    richard (Richard Barlow)
-# host:    localhost
+# host:    thinkpad.richardbarlow.co.uk
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 92000 157400]
 
 Grid[500.000000 0 0 1]
-Cursor[0 155000 0.000000]
+Cursor[0 2400 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[700 700 700 700 1500 700]
@@ -901,7 +901,7 @@ Element["onsolder" "SOT223" "U1" "sr-ic-ld1117s50" 29100 74500 20900 10300 0 78 
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
 	Pad[-3300 -18100 3300 -18100 5600 3000 6200 "IN" "3" "onsolder,square"]
-	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,edge2"]
+	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,warn,edge2"]
 	ElementLine [32900 -23300 32900 5200 1000]
 	ElementLine [-8500 -23300 32900 -23300 1000]
 	ElementLine [-8500 -23300 -8500 5200 1000]
@@ -927,12 +927,6 @@ Element["onsolder" "0603" "R1" "sr-r-10k" 52500 133500 -4650 6150 0 67 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
-
-	)
-
-Element["" "Test_Point" "5V" "sr-nothing" 64500 65500 -1559 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
@@ -986,28 +980,10 @@ Element["onsolder" "SOT262" "U4" "sr-ic-pic10f200" 36500 124400 100 -3100 0 67 "
 
 	)
 
-Element["" "Test_Point" "GetTOKEN" "sr-nothing" 64500 135000 -1500 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
-
-	)
-
-Element["" "Test_Point" "HasTOKEN" "sr-nothing" 64500 147500 -1500 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
-
-	)
-
 Element["onsolder" "0603" "C1" "sr-c-470n" 28941 47500 -4827 -1842 0 78 "auto"]
 (
 	Pad[-2559 -492 -2559 492 2952 2000 3552 "1" "1" "onsolder,square"]
 	Pad[2559 -492 2559 492 2952 2000 3552 "2" "2" "onsolder,square"]
-
-	)
-
-Element["" "Test_Point" "GND" "sr-nothing" 64500 53500 -2000 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
@@ -1027,30 +1003,6 @@ Element["onsolder" "SO8" "U2" "sr-ic-sn65176b" 19500 29500 2500 -10000 0 78 "aut
 	ElementLine [2500 -9500 15500 -9500 1000]
 	ElementLine [-15500 -9500 -2500 -9500 1000]
 	ElementArc [0 -9500 2500 2500 0 180 1000]
-
-	)
-
-Element["" "Test_Point" "12V" "sr-nothing" 64500 40000 -2000 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
-
-	)
-
-Element["" "Test_Point" "TX_EN" "sr-nothing" 64500 18000 -2000 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
-
-	)
-
-Element["" "Test_Point" "RX_D" "sr-nothing" 64500 6500 -2000 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
-
-	)
-
-Element["" "Test_Point" "TX_D" "sr-nothing" 64500 28500 -2000 2000 0 100 ""]
-(
-	Pad[0 0 0 0 3500 2000 5500 "1" "1" ""]
 
 	)
 
@@ -1133,11 +1085,11 @@ Element["" "8P8C" "S/J1" "sr-cn-8p8c" 40500 82500 20000 -14000 3 78 ""]
 
 	)
 
-Element["onsolder" "SOT23" "D3" "sr-d-gsot12c" 57000 91000 -2500 16300 0 78 "auto"]
+Element["onsolder" "SOT23" "D3" "sr-d-gsot12c" 57100 90800 -2500 16300 0 78 "auto"]
 (
-	Pad[0 300 0 -300 3400 3000 4000 "1" "1" "onsolder,square"]
-	Pad[7800 300 7800 -300 3400 3000 4000 "2" "2" "onsolder,square"]
-	Pad[3900 8500 3900 7900 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "onsolder,square"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "onsolder,square"]
+	Pad[3900 7900 3900 8500 3400 3000 4000 "3" "3" "onsolder,square,edge2"]
 	ElementLine [10300 11000 -2500 11000 1000]
 	ElementLine [10300 -2900 10300 11000 1000]
 	ElementLine [-2500 -2900 10300 -2900 1000]
@@ -1166,6 +1118,18 @@ Element["onsolder" "SOT23" "D5" "sr-d-gsot12c" 57000 10000 -2500 16300 0 78 "aut
 	ElementLine [10300 -2900 10300 11000 1000]
 	ElementLine [-2500 -2900 10300 -2900 1000]
 	ElementLine [-2500 -2900 -2500 11000 1000]
+
+	)
+
+Element["onsolder" "SOT23" "D6" "sr-d-gsot15" 64900 118200 -12300 -11000 1 100 "auto"]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "onsolder,square,edge2"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "onsolder,square,edge2"]
+	Pad[-3900 -8500 -3900 -7900 3400 3000 4000 "3" "3" "onsolder,square"]
+	ElementLine [-10300 -11000 2500 -11000 1000]
+	ElementLine [-10300 -11000 -10300 2900 1000]
+	ElementLine [-10300 2900 2500 2900 1000]
+	ElementLine [2500 -11000 2500 2900 1000]
 
 	)
 Layer(1 "component")
@@ -1525,6 +1489,13 @@ Layer(2 "solder")
 	Line[41000 83000 40500 82500 1000 2000 ""]
 	Line[50500 107500 52600 107500 2500 2000 ""]
 	Line[52600 107500 60900 99200 2500 2000 ""]
+	Line[50500 97500 53000 95000 2500 2000 ""]
+	Line[60700 114000 64900 118200 2500 2000 ""]
+	Line[65000 95000 65000 106000 2500 2000 ""]
+	Line[65000 106000 61000 110000 2500 2000 ""]
+	Line[50500 107500 57000 114000 2500 2000 ""]
+	Line[57000 114000 60700 114000 2500 2000 ""]
+	Line[53000 95000 65000 95000 2500 2000 ""]
 	Arc[20500 97500 3500 3500 1000 2000 0 90 ""]
 	Polygon("clearpoly")
 	(
@@ -1560,6 +1531,7 @@ NetList()
 	(
 		Connect("12V-1")
 		Connect("C1-2")
+		Connect("D6-3")
 		Connect("S/J1-3")
 		Connect("S/J1-4")
 		Connect("S/J2-3")
@@ -1591,6 +1563,7 @@ NetList()
 		Connect("D3-3")
 		Connect("D4-3")
 		Connect("D5-3")
+		Connect("D6-1")
 		Connect("GND-1")
 		Connect("J3-3")
 		Connect("LED1-2")
