@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Mon Mar 22 19:13:18 2010
+# date:    Mon Mar 22 20:24:20 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 92000 157400]
 
 Grid[500.000000 0 0 1]
-Cursor[0 2400 0.000000]
+Cursor[0 155000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[700 700 700 700 1500 700]
@@ -901,7 +901,7 @@ Element["onsolder" "SOT223" "U1" "sr-ic-ld1117s50" 29100 74500 20900 10300 0 78 
 	Pad[-3300 0 3300 0 5600 3000 6200 "GND" "1" "onsolder,square"]
 	Pad[-3300 -9000 3300 -9000 5600 3000 6200 "OUT" "2" "onsolder,square"]
 	Pad[-3300 -18100 3300 -18100 5600 3000 6200 "IN" "3" "onsolder,square"]
-	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,warn,edge2"]
+	Pad[24400 -13500 24400 -4500 12200 3000 12800 "4" "4" "onsolder,square,edge2"]
 	ElementLine [32900 -23300 32900 5200 1000]
 	ElementLine [-8500 -23300 32900 -23300 1000]
 	ElementLine [-8500 -23300 -8500 5200 1000]
@@ -1085,7 +1085,7 @@ Element["" "8P8C" "S/J1" "sr-cn-8p8c" 40500 82500 20000 -14000 3 78 ""]
 
 	)
 
-Element["onsolder" "SOT23" "D3" "sr-d-gsot12c" 57100 90800 -2500 16300 0 78 "auto"]
+Element["onsolder" "SOT23" "D3" "sr-d-gsot12c" 57100 90800 -2500 -3200 0 78 "auto"]
 (
 	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "onsolder,square"]
 	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "onsolder,square"]
@@ -1121,7 +1121,7 @@ Element["onsolder" "SOT23" "D5" "sr-d-gsot12c" 57000 10000 -2500 16300 0 78 "aut
 
 	)
 
-Element["onsolder" "SOT23" "D6" "sr-d-gsot15" 64900 118200 -12300 -11000 1 100 "auto"]
+Element["onsolder" "SOT23" "D6" "sr-d-gsot15" 64900 118200 -7700 8200 0 78 "auto"]
 (
 	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "onsolder,square,edge2"]
 	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "onsolder,square,edge2"]
