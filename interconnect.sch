@@ -232,8 +232,6 @@ T 61700 46500 5 10 0 0 0 6 1
 device=INPUT
 T 61800 46400 5 10 1 1 180 6 1
 refdes=TX_EN
-T 61700 46200 5 10 0 0 0 0 1
-footprint=Test_Point
 T 61700 46200 5 10 0 1 0 0 1
 value=sr-nothing
 }
@@ -243,8 +241,6 @@ T 61700 45800 5 10 0 0 0 6 1
 device=INPUT
 T 61800 45700 5 10 1 1 180 6 1
 refdes=TX_D
-T 61700 45500 5 10 0 0 0 0 1
-footprint=Test_Point
 T 61700 45500 5 10 0 1 0 0 1
 value=sr-nothing
 }
@@ -254,31 +250,25 @@ T 61100 45100 5 10 0 0 0 0 1
 device=OUTPUT
 T 61800 45000 5 10 1 1 0 2 1
 refdes=RX_D
-T 61100 44800 5 10 0 0 0 0 1
-footprint=Test_Point
 T 61100 44800 5 10 0 1 0 0 1
 value=sr-nothing
 }
-C 58500 41400 1 0 1 in-1.sym
+C 61700 41400 1 0 1 in-1.sym
 {
-T 58500 41700 5 10 0 0 0 6 1
+T 61700 41700 5 10 0 0 0 6 1
 device=INPUT
-T 58600 41600 5 10 1 1 180 6 1
+T 61800 41600 5 10 1 1 180 6 1
 refdes=GetTOKEN
-T 58500 41400 5 10 0 0 0 0 1
-footprint=Test_Point
-T 58500 41400 5 10 0 1 0 0 1
+T 61700 41400 5 10 0 1 0 0 1
 value=sr-nothing
 }
-C 57900 42000 1 0 0 out-1.sym
+C 61100 42000 1 0 0 out-1.sym
 {
-T 57900 42300 5 10 0 0 0 0 1
+T 61100 42300 5 10 0 0 0 0 1
 device=OUTPUT
-T 58600 42200 5 10 1 1 0 2 1
+T 61800 42200 5 10 1 1 0 2 1
 refdes=HasTOKEN
-T 57900 42000 5 10 0 0 0 0 1
-footprint=Test_Point
-T 57900 42000 5 10 0 1 0 0 1
+T 61100 42000 5 10 0 1 0 0 1
 value=sr-nothing
 }
 C 61100 49100 1 0 0 out-1.sym
@@ -287,8 +277,6 @@ T 61100 49400 5 10 0 0 0 0 1
 device=OUTPUT
 T 61800 49300 5 10 1 1 0 2 1
 refdes=GND
-T 61100 49100 5 10 0 0 0 0 1
-footprint=Test_Point
 T 61100 49100 5 10 0 1 0 0 1
 value=sr-nothing
 }
@@ -298,8 +286,6 @@ T 61100 50600 5 10 0 0 0 0 1
 device=OUTPUT
 T 61800 50500 5 10 1 1 0 2 1
 refdes=12V
-T 61100 50300 5 10 0 0 0 0 1
-footprint=Test_Point
 T 61100 50300 5 10 0 1 0 0 1
 value=sr-nothing
 }
@@ -313,8 +299,8 @@ T 53800 41500 5 10 1 1 0 0 1
 netname=ICSPCLK
 }
 N 55000 41800 55000 42100 4
-N 56900 42100 57900 42100 4
-N 56900 41500 57900 41500 4
+N 56900 42100 61100 42100 4
+N 56900 41500 61100 41500 4
 N 49800 40300 49800 41800 4
 N 48300 41500 50500 41500 4
 C 52900 37700 1 0 0 connector5-1.sym
@@ -410,8 +396,6 @@ T 61100 50000 5 10 0 0 0 0 1
 device=OUTPUT
 T 61800 49900 5 10 1 1 0 2 1
 refdes=5V
-T 61100 49700 5 10 0 0 0 0 1
-footprint=Test_Point
 T 61100 49700 5 10 0 1 0 0 1
 value=sr-nothing
 }
