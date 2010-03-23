@@ -388,13 +388,13 @@ programmed with the board powered down.
 
 D2 allows Vpp to raise to 12V+ without
 damaging U3
-C 45100 50200 1 0 0 linear-reg-3.sym
+C 45100 50200 1 0 0 linear-reg-4.sym
 {
 T 46700 51500 5 10 0 0 0 0 1
 device=regulator
-T 45600 51125 5 10 1 1 0 6 1
+T 45600 51225 5 10 1 1 0 6 1
 refdes=U1
-T 45800 51150 5 10 1 1 0 0 1
+T 45800 51250 5 10 1 1 0 0 1
 value=sr-ic-ld1117s50
 T 45100 50200 5 10 0 1 0 0 1
 footprint=SOT223
@@ -645,3 +645,4 @@ value=sr-d-gsot15
 T 42800 49900 5 10 0 1 90 0 1
 footprint=SOT23
 }
+N 46700 51000 46700 50800 4
