@@ -328,7 +328,7 @@ comment=ICSP
 T 52900 37700 5 10 0 1 0 0 1
 footprint=JUMPER5
 T 52900 37700 5 10 1 1 0 2 1
-value=sr-cn-header4
+value=sr-cn-header5
 }
 N 48800 40500 48300 40500 4
 N 49700 40500 49800 40500 4
