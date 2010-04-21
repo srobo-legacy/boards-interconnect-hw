@@ -2,6 +2,10 @@
 import sys
 from datetime import datetime
 
+def mm2m(length):
+    """Convert mm to 1/100 mil"""
+    return length/0.000254
+
 if len(sys.argv) != 7:
     print("Usage: %s width height xspace yspace diam {s,r}")
     print("""
@@ -34,5 +38,4 @@ print("""
 """ % (sys.argv[0], datetime.today().strftime("%a %b %d %H:%M:%S %Y")))
 
 # size of proto area
-
-
+print("""PCB["" %i %i]""" % (mm2m(boardwidth), mm2m(boardheight)))
