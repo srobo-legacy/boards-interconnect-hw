@@ -7,14 +7,15 @@ def mm2m(length):
     return length/0.000254
 
 if len(sys.argv) != 7:
-    print("Usage: %s width height xspace yspace diam {s,r}")
-    print("""
+    sys.stderr.write("Usage: %s width height xspace yspace diam {s,r}")
+    sys.stderr.write("""
     width  - number of holes wide
     height - number of holes high
     xspace - spacing between holes in mm
     yspace - spacing between holes in mm
     diam   - diameter of holes in mm
-    s,r    - Square or Round pads""")
+    s,r    - Square or Round pads
+    """)
     sys.exit(1)
 
 width  = int(sys.argv[1])
