@@ -41,3 +41,8 @@ print("""
 # size of proto area
 print("""PCB["" %i %i]""" % (mm2m(boardwidth), mm2m(boardheight)))
 print("""Grid[1000.000000 0 0 0]""")
+
+for x in range(0, width):
+    for y in range(0, height):
+        print("""Via[%i %i %i %i %i %i "" "%s"]""" % \
+              (mm2m(x*xspace), mm2m(y*yspace), mm2m(paddiam), 700, mm2m(xspace), mm2m(diam), shape))
