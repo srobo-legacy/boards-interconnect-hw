@@ -45,4 +45,5 @@ print("""Grid[1000.000000 0 0 0]""")
 for x in range(0, width):
     for y in range(0, height):
         print("""Via[%i %i %i %i %i %i "" "%s"]""" % \
-              (mm2m(x*xspace), mm2m(y*yspace), mm2m(paddiam), 700, mm2m(xspace), mm2m(diam), shape))
+              (mm2m(x*xspace + xspace/2), mm2m(y*yspace + yspace/2), \
+              mm2m(paddiam), 700, mm2m(xspace), mm2m(diam), shape))
