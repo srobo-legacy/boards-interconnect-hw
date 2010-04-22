@@ -15,6 +15,8 @@ T 48100 48500 5 10 0 0 0 0 1
 device=regulator
 T 49250 48250 5 10 1 1 0 6 1
 refdes=U1
+T 47800 47300 5 10 0 1 0 0 1
+footprint=SOT25
 }
 C 46000 47600 1 270 0 capacitor-1.sym
 {
@@ -26,6 +28,8 @@ T 46900 47400 5 10 0 0 270 0 1
 symversion=0.1
 T 46500 47000 5 10 1 1 0 0 1
 value=sr-c-2u2-0805
+T 46000 47600 5 10 0 1 0 0 1
+footprint=0805
 }
 C 48900 47100 1 270 0 capacitor-1.sym
 {
@@ -37,6 +41,8 @@ T 49800 46900 5 10 0 0 270 0 1
 symversion=0.1
 T 49400 46500 5 10 1 1 0 0 1
 value=sr-c-1n
+T 48900 47100 5 10 0 1 0 0 1
+footprint=0603
 }
 C 50200 47600 1 270 0 capacitor-1.sym
 {
@@ -48,6 +54,8 @@ T 51100 47400 5 10 0 0 270 0 1
 symversion=0.1
 T 50700 47000 5 10 1 1 0 0 1
 value=sr-c-2u2-0805
+T 50200 47600 5 10 0 1 0 0 1
+footprint=0805
 }
 C 51500 47800 1 0 0 resistor-2.sym
 {
@@ -57,6 +65,8 @@ T 51700 48300 5 10 1 1 0 0 1
 refdes=R1
 T 51700 48100 5 10 1 1 0 0 1
 value=sr-r-1k
+T 51500 47800 5 10 0 1 0 0 1
+footprint=0603
 }
 C 52700 47600 1 270 0 led-1.sym
 {
@@ -68,6 +78,8 @@ T 53500 46800 5 10 0 0 270 0 1
 symversion=0.1
 T 53400 47000 5 10 1 1 0 0 1
 value=sr-led-green-plcc2
+T 52700 47600 5 10 0 1 0 0 1
+footprint=PLCC2
 }
 C 44400 43600 1 0 0 gnd-1.sym
 C 49900 45900 1 0 0 gnd-1.sym
