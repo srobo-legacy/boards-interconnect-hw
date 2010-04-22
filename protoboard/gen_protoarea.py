@@ -20,9 +20,9 @@ if len(sys.argv) != 7:
 
 width  = int(sys.argv[1])
 height = int(sys.argv[2])
-xspace = int(sys.argv[3])
-yspace = int(sys.argv[4])
-diam   = int(sys.argv[5])
+xspace = float(sys.argv[3])
+yspace = float(sys.argv[4])
+diam   = float(sys.argv[5])
 if (sys.argv[6] == "s"):
     shape = "square"
 else:
