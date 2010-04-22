@@ -1,0 +1,4 @@
+schematics sric_proto.sch
+output-name sric_proto
+elements-dir ../components/pkg 
+
