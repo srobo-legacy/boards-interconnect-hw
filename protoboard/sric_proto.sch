@@ -3,7 +3,7 @@ C 40000 40000 0 0 0 title-B.sym
 C 43900 43900 1 0 0 interconnect.sym
 {
 T 45100 46620 5 10 1 1 0 0 1
-refdes=S?
+refdes=S
 T 44000 47395 5 10 0 0 0 0 1
 device=none
 }
@@ -12,14 +12,14 @@ C 47800 47300 1 0 0 linear-reg-2.sym
 T 48100 48500 5 10 0 0 0 0 1
 device=regulator
 T 49250 48250 5 10 1 1 0 6 1
-refdes=U?
+refdes=U1
 }
 C 46100 47600 1 270 0 capacitor-1.sym
 {
 T 46800 47400 5 10 0 0 270 0 1
 device=CAPACITOR
 T 46600 47200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C1
 T 47000 47400 5 10 0 0 270 0 1
 symversion=0.1
 }
@@ -28,7 +28,7 @@ C 48900 47100 1 270 0 capacitor-1.sym
 T 49600 46900 5 10 0 0 270 0 1
 device=CAPACITOR
 T 49400 46700 5 10 1 1 0 0 1
-refdes=C?
+refdes=C2
 T 49800 46900 5 10 0 0 270 0 1
 symversion=0.1
 }
@@ -37,7 +37,7 @@ C 50200 47600 1 270 0 capacitor-1.sym
 T 50900 47400 5 10 0 0 270 0 1
 device=CAPACITOR
 T 50700 47200 5 10 1 1 0 0 1
-refdes=C?
+refdes=C3
 T 51100 47400 5 10 0 0 270 0 1
 symversion=0.1
 }
@@ -46,14 +46,14 @@ C 51500 47800 1 0 0 resistor-2.sym
 T 51900 48150 5 10 0 0 0 0 1
 device=RESISTOR
 T 51700 48200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R1
 }
 C 52700 47600 1 270 0 led-1.sym
 {
 T 53300 46800 5 10 0 0 270 0 1
 device=LED
 T 53400 47200 5 10 1 1 0 0 1
-refdes=LED?
+refdes=LED1
 T 53500 46800 5 10 0 0 270 0 1
 symversion=0.1
 }
