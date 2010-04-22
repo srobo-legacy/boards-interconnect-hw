@@ -39,3 +39,4 @@ print("""
 
 # size of proto area
 print("""PCB["" %i %i]""" % (mm2m(boardwidth), mm2m(boardheight)))
+print("""Grid[1000.000000 0 0 0]""")
