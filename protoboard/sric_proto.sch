@@ -8,6 +8,8 @@ T 44000 47395 5 10 0 0 0 0 1
 device=none
 T 44800 46700 5 10 1 1 0 0 1
 value=sr-nothing
+T 43900 43900 5 10 0 0 0 0 1
+source=interconnect.sch
 }
 C 47800 47300 1 0 0 linear-reg-2.sym
 {
