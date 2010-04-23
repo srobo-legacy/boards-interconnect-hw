@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sat Apr 24 00:16:14 2010
+# date:    Sat Apr 24 00:26:46 2010
 # user:    richard (Richard Barlow)
 # host:    localhost
 
@@ -2212,8 +2212,23 @@ Layer(4 "silk")
 	Line[145669 194094 151969 194094 1000 2000 "clearline"]
 	Line[151969 194094 153150 192913 1000 2000 "clearline"]
 	Line[153150 192913 153150 192126 1000 2000 "clearline"]
+	Line[86614 5512 88582 5512 1000 2000 "clearline"]
+	Line[88582 5512 92913 9843 1000 2000 "clearline"]
+	Line[92913 9843 92913 10630 1000 2000 "clearline"]
+	Line[101181 5512 103150 7481 1000 2000 "clearline"]
+	Line[103150 7481 103150 10630 1000 2000 "clearline"]
+	Line[115354 5118 118110 7874 1000 2000 "clearline"]
+	Line[118110 7874 118110 11024 1000 2000 "clearline"]
+	Line[127953 8661 127953 11024 1000 2000 "clearline"]
+	Line[143307 5118 138189 10236 1000 2000 "clearline"]
+	Line[138189 10236 138189 11024 1000 2000 "clearline"]
 	Text[86220 191338 0 89 "GND" ""]
 	Text[137094 191360 0 89 "3V3" ""]
+	Text[78742 1574 0 122 "HT" ""]
+	Text[93307 1574 0 122 "GT" ""]
+	Text[118898 1576 0 122 "TX_EN" ""]
+	Text[107480 1573 0 122 "TX" ""]
+	Text[144094 1575 0 122 "RX" ""]
 )
 NetList()
 (
