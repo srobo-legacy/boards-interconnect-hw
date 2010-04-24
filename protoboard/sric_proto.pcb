@@ -1437,7 +1437,7 @@ Element["" "SOD80" "S/D2" "sr-d-ll4448" 12000 156835 35800 2700 0 78 ""]
 
 	)
 
-Element["" "JUMPER5" "S/J3" "sr-cn-header4" 7500 169835 50800 -5700 3 78 ""]
+Element["" "JUMPER5" "S/J3" "sr-cn-header5" 7500 169835 50800 -5700 3 78 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -1764,7 +1764,7 @@ Element["onsolder" "0805" "C1" "sr-c-2u2-0805" 49213 184646 8265 6298 3 89 "auto
 
 	)
 
-Element["onsolder" "SOT25" "U1" "unknown" 34184 181176 8666 9488 3 89 "auto"]
+Element["onsolder" "SOT25" "U1" "sr-ic-ts5205cx533" 34184 181176 8666 9488 3 89 "auto"]
 (
 	Pad[-800 0 800 0 2400 3000 3000 "IN" "1" "onsolder,square,edge2"]
 	Pad[-800 7800 800 7800 2400 3000 3000 "GND" "2" "onsolder,square,edge2"]

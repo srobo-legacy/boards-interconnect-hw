@@ -15,10 +15,12 @@ C 47800 47300 1 0 0 linear-reg-2.sym
 {
 T 48100 48500 5 10 0 0 0 0 1
 device=regulator
-T 49250 48250 5 10 1 1 0 6 1
+T 48100 48500 5 10 1 1 0 0 1
 refdes=U1
 T 47800 47300 5 10 0 1 0 0 1
 footprint=SOT25
+T 48100 48300 5 10 1 1 0 0 1
+value=sr-ic-ts5205cx533
 }
 C 46000 47600 1 270 0 capacitor-1.sym
 {
