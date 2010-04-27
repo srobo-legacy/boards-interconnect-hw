@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Sun Apr 25 15:24:29 2010
+# date:    Tue Apr 27 20:56:17 2010
 # user:    richard (Richard Barlow)
-# host:    localhost
+# host:    thinkpad.richardbarlow.co.uk
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
@@ -9,7 +9,7 @@ FileVersion[20070407]
 PCB["" 157480 196850]
 
 Grid[393.700775 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[0 196850 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 669 1969 787]
@@ -2234,10 +2234,12 @@ Layer(3 "component-gnd")
 )
 Layer(4 "solder-gnd")
 (
+	Text[74410 10630 3 77 "SRIC" "auto"]
+	Text[122045 10630 0 166 "SR11.P1" "auto"]
 	Polygon("clearpoly")
 	(
-		[394 83071] [16536 83071] [16536 66929] [74803 66929] [74803 394] 
-		[394 394] 
+		[394 83071] [16536 83071] [16536 66929] [74803 66929] [74803 11811] 
+		[69291 11811] [69291 394] [394 394] 
 	)
 	Polygon("clearpoly")
 	(
