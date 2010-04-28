@@ -1,4 +1,0 @@
-schematics example_board.sch
-output-name example_board
-elements-dir ../components/pkg 
-
