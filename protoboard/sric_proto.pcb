@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Tue Apr 27 20:56:17 2010
+# date:    Sat May  8 12:45:44 2010
 # user:    richard (Richard Barlow)
-# host:    thinkpad.richardbarlow.co.uk
+# host:    localhost
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
@@ -1719,16 +1719,16 @@ Element["onsolder" "SOT223" "S/U1" "sr-ic-ld1117s50" 29100 92335 20900 10300 0 7
 
 	)
 
-Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 38143 183858 -4677 7078 0 89 ""]
+Element["" "PLCC2" "LED1" "sr-led-green-plcc2" 38235 183858 4677 -7078 2 89 ""]
 (
-	Pad[-5860 -2118 -5860 2118 6000 4800 6600 "A" "1" "square"]
-	Pad[5860 -2118 5860 2118 6000 5200 6600 "K" "2" "square"]
-	ElementLine [-6690 -3900 -6690 5900 1000]
-	ElementLine [-6690 5900 6690 5900 1000]
-	ElementLine [6690 -5900 6690 5900 1000]
-	ElementLine [-4690 -5900 6690 -5900 1000]
-	ElementLine [-6690 -3900 -4690 -5900 1000]
-	ElementArc [0 0 4000 4000 0 360 1000]
+	Pad[5860 -2118 5860 2118 6000 4800 6600 "K" "2" "square"]
+	Pad[-5860 -2118 -5860 2118 6000 5200 6600 "A" "1" "square"]
+	ElementLine [6690 -5900 6690 3900 1000]
+	ElementLine [-6690 -5900 6690 -5900 1000]
+	ElementLine [-6690 -5900 -6690 5900 1000]
+	ElementLine [-6690 5900 4690 5900 1000]
+	ElementLine [6690 3900 4690 5900 1000]
+	ElementArc [0 0 4000 4000 180 360 1000]
 
 	)
 
