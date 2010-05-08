@@ -371,7 +371,7 @@ device=RESISTOR
 T 54800 51300 5 10 1 1 0 0 1
 refdes=R5
 T 54800 51100 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-100
 T 54500 51700 5 10 0 1 180 0 1
 footprint=0603
 }
@@ -382,7 +382,7 @@ device=RESISTOR
 T 48800 39500 5 10 1 1 0 0 1
 refdes=R6
 T 48800 39300 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 T 48500 39900 5 10 0 1 180 0 1
 footprint=0603
 }
@@ -398,6 +398,8 @@ T 55900 50700 5 10 0 0 270 0 1
 footprint=dual_led
 T 55100 50200 5 10 1 1 0 0 1
 value=sr-led-redgreen
+T 55100 50000 5 10 1 1 0 0 1
+comment=(green)
 }
 C 48400 38700 1 270 0 leddual-3.sym
 {
@@ -411,6 +413,8 @@ T 49500 38600 5 10 0 0 270 0 1
 slot=2
 T 49100 38100 5 10 1 1 0 0 1
 value=sr-led-redgreen
+T 49100 37900 5 10 1 1 0 0 1
+comment=(red)
 }
 C 42000 44500 1 0 0 sric-conn.sym
 {
