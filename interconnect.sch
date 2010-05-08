@@ -498,7 +498,7 @@ refdes=D3
 T 45200 47400 5 10 0 0 0 0 1
 footprint=SOT23
 T 46600 47900 5 10 1 1 0 0 1
-value=sr-d-gsot12c
+value=sr-d-gsot03c
 }
 C 45200 45600 1 0 0 TVS-dual-ca.sym
 {
@@ -509,7 +509,7 @@ refdes=D4
 T 45200 45600 5 10 0 0 0 0 1
 footprint=SOT23
 T 46600 46100 5 10 1 1 0 0 1
-value=sr-d-gsot12c
+value=sr-d-gsot03c
 }
 C 45200 43900 1 0 0 TVS-dual-ca.sym
 {
@@ -520,7 +520,7 @@ refdes=D5
 T 45200 43900 5 10 0 0 0 0 1
 footprint=SOT23
 T 46600 44400 5 10 1 1 0 0 1
-value=sr-d-gsot12c
+value=sr-d-gsot03c
 }
 N 45500 48500 46100 48500 4
 {
