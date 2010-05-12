@@ -1,12 +1,12 @@
 # release: pcb 1.99z
-# date:    Wed May 12 16:49:01 2010
+# date:    Wed May 12 16:50:18 2010
 # user:    richard (Richard Barlow)
 # host:    pc.richard.barlow
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["" 98425 177165]
+PCB["" 78740 157480]
 
 Grid[393.700775 0 0 1]
 Cursor[0 177165 0.000000]
