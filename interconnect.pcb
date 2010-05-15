@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sat May 15 12:52:27 2010
+# date:    Sat May 15 12:57:05 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -13,7 +13,7 @@ Cursor[0 157480 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
-Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,hidenames")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin")
 Groups("1,c:2,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -902,7 +902,7 @@ Element["onsolder" "SOD80" "D1" "sr-d-ll4448" 11523 114961 -11600 0 1 100 "auto"
 
 	)
 
-Element["" "JUMPER5" "J3" "sr-cn-header5" 7403 145276 -5000 -11000 0 100 ""]
+Element["" "JUMPER5" "J3" "sr-cn-header5" 7403 145276 49707 -13427 1 78 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
 	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
@@ -925,7 +925,7 @@ Element["onsolder" "0603" "C4" "sr-c-100n" 7283 98819 -3150 3150 0 100 "auto"]
 
 	)
 
-Element["" "8P8C" "S/J2" "sr-cn-8p8c" 40748 18780 18622 -11811 0 100 ""]
+Element["" "8P8C" "S/J2" "sr-cn-8p8c" 40748 18780 15827 37204 1 89 ""]
 (
 	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
 	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
@@ -943,7 +943,7 @@ Element["" "8P8C" "S/J2" "sr-cn-8p8c" 40748 18780 18622 -11811 0 100 ""]
 
 	)
 
-Element["" "dual_led" "LED1" "sr-led-redgreen" 63386 143304 6000 -2000 3 100 ""]
+Element["" "dual_led" "LED1" "sr-led-redgreen" 63386 143304 5813 7124 1 78 ""]
 (
 	Pad[2756 -7874 2756 -5906 3937 1000 4537 "A" "1" "square"]
 	Pad[-2756 -7874 -2756 -5906 3937 1000 4537 "A" "3" "square"]
@@ -1113,7 +1113,7 @@ Element["onsolder" "0603" "R5" "sr-r-100" 66142 147635 3150 3150 3 100 "auto"]
 
 	)
 
-Element["" "8P8C" "S/J1" "sr-cn-8p8c" 40748 87677 20590 -11811 0 100 ""]
+Element["" "8P8C" "S/J1" "sr-cn-8p8c" 40748 87677 15828 31301 1 89 ""]
 (
 	Pin[10000 35000 6000 2000 7000 3500 "I7" "8" ""]
 	Pin[0 30000 6000 2000 7000 3500 "I6" "7" ""]
@@ -1533,6 +1533,8 @@ Layer(3 "silk")
 )
 Layer(4 "silk")
 (
+	Line[57480 132677 57480 136220 1000 2000 "clearline"]
+	Line[57480 136220 53543 140157 1000 2000 "clearline"]
 	Text[58465 93897 1 154 "IN" ""]
 	Text[58268 33465 1 154 "OUT" ""]
 )
