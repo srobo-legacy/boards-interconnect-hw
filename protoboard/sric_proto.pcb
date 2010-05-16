@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun May 16 13:58:39 2010
+# date:    Sun May 16 14:09:43 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -13,7 +13,7 @@ Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
-Flags("showdrc,rubberband,nameonpcb,uniquename,clearnew,snappin,hidenames")
+Flags("showdrc,rubberband,nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2,s")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
@@ -1113,7 +1113,7 @@ Via[47244 9843 6000 2000 0 3500 "" ""]
 Via[63780 13385 3600 2000 0 2000 "" ""]
 Via[71260 15748 3600 2000 0 2000 "" ""]
 
-Element["onsolder" "DO214AB" "D1" "sr-d-30bq040trpbf" 37525 27954 -22700 0 1 100 "auto"]
+Element["onsolder" "DO214AB" "D1" "sr-d-30bq040trpbf" 37525 27954 -15870 18245 0 100 "auto"]
 (
 	Pad[10900 -2000 10900 2000 14500 2000 15100 "1" "1" "onsolder,square"]
 	Pad[-10900 -2000 -10900 2000 14500 2000 15100 "2" "2" "onsolder,square"]
@@ -1126,16 +1126,16 @@ Element["onsolder" "DO214AB" "D1" "sr-d-30bq040trpbf" 37525 27954 -22700 0 1 100
 
 	)
 
-Element["onsolder" "0805" "C1" "sr-c-2u2-0805" 71654 189370 3150 3150 3 100 "auto"]
+Element["onsolder" "0805" "C1" "sr-c-2u2-0805" 114961 6693 -2364 8269 0 89 "auto"]
 (
-	Pad[-393 3543 393 3543 5118 2000 5718 "1" "1" "onsolder,square"]
-	Pad[-393 -3543 393 -3543 5118 2000 5718 "2" "2" "onsolder,square"]
-	ElementLine [2755 -393 2755 393 800]
-	ElementLine [-2755 -393 -2755 393 800]
+	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "onsolder,square"]
+	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "onsolder,square"]
+	ElementLine [-393 -2755 393 -2755 800]
+	ElementLine [-393 2755 393 2755 800]
 
 	)
 
-Element["" "JUMPER2" "J1" "sr-nothing" 8269 31496 -11000 5000 1 100 ""]
+Element["" "JUMPER2" "J1" "sr-nothing" 8269 31496 5536 3819 1 100 ""]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
 	Pin[0 -10000 6000 3000 6600 3800 "2" "2" ""]
@@ -1886,13 +1886,13 @@ Layer(2 "solder")
 	Line[68898 63780 64173 68505 2500 2000 "clearline"]
 	Line[64173 68505 61023 68505 2500 2000 "clearline"]
 	Line[80000 185000 80000 85000 2500 2000 "clearline"]
-	Line[148032 192913 150000 190945 2500 2000 "clearline"]
+	Line[20472 5118 17717 7873 1000 2000 "clearline"]
 	Line[80000 155000 78194 153194 2500 2000 "clearline"]
 	Line[78194 153194 64844 153194 2500 2000 "clearline"]
-	Line[71654 185827 72481 185000 2500 2000 "clearline"]
-	Line[72481 185000 80000 185000 2500 2000 "clearline"]
-	Line[71654 192913 148032 192913 2500 2000 "clearline"]
-	Line[150000 55000 150000 190945 2500 2000 "clearline"]
+	Line[111418 6693 110591 5866 2500 2000 "clearline"]
+	Line[55513 5118 20472 5118 1000 2000 "clearline"]
+	Line[17717 7873 17717 9843 1000 2000 "clearline"]
+	Line[150000 55000 150000 185000 2500 2000 "clearline"]
 	Line[59843 28740 49211 28740 2500 2000 "clearline"]
 	Line[49211 28740 48425 27954 2500 2000 "clearline"]
 	Line[7874 9843 15354 2362 1000 2000 "clearline"]
@@ -1900,9 +1900,14 @@ Layer(2 "solder")
 	Line[68110 2362 71260 5512 1000 2000 "clearline"]
 	Line[71260 5512 71260 15748 1000 2000 "clearline"]
 	Line[63780 13385 55513 5118 1000 2000 "clearline"]
-	Line[55513 5118 20472 5118 1000 2000 "clearline"]
-	Line[20472 5118 17717 7873 1000 2000 "clearline"]
-	Line[17717 7873 17717 9843 1000 2000 "clearline"]
+	Line[111418 6693 83858 6693 2500 2000 "clearline"]
+	Line[83858 6693 77559 12992 2500 2000 "clearline"]
+	Line[77559 12992 77559 17441 2500 2000 "clearline"]
+	Line[77559 17441 77500 17500 2500 2000 "clearline"]
+	Line[118504 6693 146063 6693 2500 2000 "clearline"]
+	Line[146063 6693 152362 12992 2500 2000 "clearline"]
+	Line[152362 12992 152362 17362 2500 2000 "clearline"]
+	Line[152362 17362 152500 17500 2500 2000 "clearline"]
 	Polygon("clearpoly")
 	(
 		[60629 118504] [66141 124016] [66141 88976] [62598 92520] [37008 92520] 
