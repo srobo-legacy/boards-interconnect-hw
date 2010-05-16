@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun May 16 17:13:45 2010
+# date:    Sun May 16 17:36:44 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -1127,7 +1127,7 @@ Element["onsolder" "DO214AB" "D1" "sr-d-30bq040trpbf" 37525 27954 -15870 18245 0
 
 	)
 
-Element["onsolder" "0805" "C1" "sr-c-2u2-0805" 114961 6693 -2364 8269 0 89 "auto"]
+Element["onsolder" "0805" "C1" "sr-c-2u2-0805" 97244 6693 -2364 8269 0 89 "auto"]
 (
 	Pad[3543 -393 3543 393 5118 2000 5718 "1" "1" "onsolder,square"]
 	Pad[-3543 -393 -3543 393 5118 2000 5718 "2" "2" "onsolder,square"]
@@ -1899,7 +1899,7 @@ Layer(2 "solder")
 	Line[20472 5118 17717 7873 1000 2000 "clearline"]
 	Line[80000 155000 78194 153194 2500 2000 "clearline"]
 	Line[78194 153194 64844 153194 2500 2000 "clearline"]
-	Line[111418 6693 110591 5866 2500 2000 "clearline"]
+	Line[93701 6693 92874 5866 2500 2000 "clearline"]
 	Line[55513 5118 20472 5118 1000 2000 "clearline"]
 	Line[17717 7873 17717 9843 1000 2000 "clearline"]
 	Line[150000 55000 150000 185000 2500 2000 "clearline"]
@@ -1910,17 +1910,18 @@ Layer(2 "solder")
 	Line[68110 2362 71260 5512 1000 2000 "clearline"]
 	Line[71260 5512 71260 15748 1000 2000 "clearline"]
 	Line[63780 13385 55513 5118 1000 2000 "clearline"]
-	Line[111418 6693 83858 6693 2500 2000 "clearline"]
+	Line[93701 6693 83858 6693 2500 2000 "clearline"]
 	Line[83858 6693 77559 12992 2500 2000 "clearline"]
 	Line[77559 12992 77559 17441 2500 2000 "clearline"]
 	Line[77559 17441 77500 17500 2500 2000 "clearline"]
-	Line[118504 6693 146063 6693 2500 2000 "clearline"]
-	Line[146063 6693 152362 12992 2500 2000 "clearline"]
+	Line[100787 6693 100788 12992 2500 2000 "clearline"]
+	Line[100788 12992 152362 12992 2500 2000 "clearline"]
 	Line[152362 12992 152362 17362 2500 2000 "clearline"]
 	Line[152362 17362 152500 17500 2500 2000 "clearline"]
 	Line[66535 18110 72441 24016 2500 2000 ""]
 	Line[59842 18110 66535 18110 2500 2000 ""]
 	Line[42009 52165 40354 53820 1000 2000 "clearline"]
+	Text[122047 10631 0 154 "SR11.P2" "auto"]
 	Polygon("clearpoly")
 	(
 		[60629 118504] [67716 125591] [67716 150394] [73621 150394] [73621 88189] 
@@ -1969,9 +1970,11 @@ Layer(3 "component-GND")
 )
 Layer(4 "solder-GND")
 (
+	Text[65354 195667 0 66 "SRIC" "auto"]
 	Polygon("clearpoly")
 	(
-		[984 195866] [73819 195866] [73819 149606] [984 149606] 
+		[984 195866] [64567 195866] [64567 191535] [73819 191535] [73819 149606] 
+		[984 149606] 
 	)
 	Polygon("clearpoly")
 	(
