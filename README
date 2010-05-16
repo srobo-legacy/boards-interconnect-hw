@@ -1,6 +1,7 @@
 Use the makefile to update the PCB layout with schematic changes.
 
 protoboard/ contains a simple design employing the standard SRIC layout. It
-            has a 3.3V linear regulator powered from the 5V output of SRIC
-            and a 1.27mm prototyping area. Used for testing the viability
-            of SRIC.
+            has a 1.27mm/2.54mm prototyping area which is supplied with 3.3V
+            from the main SRIC 3.3V regulator. This design is for testing the
+            viability of SRIC and also testing new features before deploying to
+            other boards.
