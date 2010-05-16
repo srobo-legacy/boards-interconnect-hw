@@ -49,7 +49,7 @@ refdes=J1
 T 42500 45500 5 10 1 1 0 0 1
 value=sr-nothing
 T 42500 45700 5 10 0 0 0 0 1
-footprint=jumper2
+footprint=JUMPER2
 }
 C 45800 46000 1 0 1 diode-3.sym
 {

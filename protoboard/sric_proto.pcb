@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Sun May 16 12:57:57 2010
+# date:    Sun May 16 13:01:02 2010
 # user:    richard (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -8,7 +8,7 @@ FileVersion[20070407]
 
 PCB["" 157480 196850]
 
-Grid[393.700775 0 0 1]
+Grid[393.700775 0 0 0]
 Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
@@ -1094,6 +1094,19 @@ Element["" "SOT262" "S/U4" "sr-ic-pic10f200" 2000 11000 11800 -11000 3 100 ""]
 	ElementLine [9800 2900 9800 -11000 1000]
 	ElementLine [9800 -11000 -2000 -11000 1000]
 	ElementArc [-2000 -4100 1500 1500 90 180 1000]
+
+	)
+
+Element["" "JUMPER2" "J1" "sr-nothing" 38071 12087 11000 -5000 3 100 ""]
+(
+	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
+	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
+	ElementLine [5000 5000 5000 -5000 1000]
+	ElementLine [-5000 5000 5000 5000 1000]
+	ElementLine [5000 -5000 -5000 -5000 1000]
+	ElementLine [5000 15000 5000 -5000 1000]
+	ElementLine [-5000 15000 5000 15000 1000]
+	ElementLine [-5000 -5000 -5000 15000 1000]
 
 	)
 Layer(1 "component")
