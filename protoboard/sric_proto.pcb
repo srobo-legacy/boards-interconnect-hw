@@ -1,7 +1,7 @@
 # release: pcb 1.99z
-# date:    Wed May 26 22:59:50 2010
+# date:    Thu May 27 13:49:27 2010
 # user:    richard (Richard Barlow)
-# host:    thinkpad.richardbarlow.co.uk
+# host:    pc.richard.barlow
 
 # To read pcb files, the pcb version (or the cvs source date) must be >= the file version
 FileVersion[20070407]
@@ -1597,10 +1597,10 @@ Layer(1 "component")
 	Line[40354 99410 50354 104410 2500 2000 ""]
 	Line[63386 182283 63386 176377 2500 2000 ""]
 	Line[71260 194094 71260 215354 2500 2000 "clearline"]
-	Line[71260 215354 74409 218503 2500 2000 "clearline"]
+	Line[71260 215354 74409 218503 2500 2000 "clearline,rubberend"]
 	Line[74409 218503 148425 218503 2500 2000 "clearline"]
 	Line[148425 218503 150000 216928 2500 2000 "clearline"]
-	Line[150000 216928 150000 80590 2500 2000 "clearline"]
+	Line[150000 216928 150000 80590 2500 2000 "clearline,rubberend"]
 	Line[150000 80590 152500 78090 1000 2000 "clearline"]
 	Line[152500 78090 152500 43090 1000 2000 "clearline"]
 	Line[77500 43090 77500 108090 1000 2000 "clearline"]
@@ -1698,12 +1698,13 @@ Layer(1 "component")
 	Text[58072 154527 1 154 "IN" ""]
 	Text[52756 44487 0 99 "12V" ""]
 	Text[27164 21456 1 121 "12Vin" ""]
-	Text[73621 6694 2 110 "HT" ""]
-	Text[60628 6693 2 110 "GT" ""]
-	Text[124016 6691 2 110 "RX" ""]
-	Text[91339 6693 2 110 "TX" ""]
-	Text[113387 6694 2 110 "TX_EN" ""]
+	Text[73621 7087 2 110 "HT" ""]
+	Text[60628 7087 2 110 "GT" ""]
+	Text[124016 7085 2 110 "RX" ""]
+	Text[91339 7087 2 110 "TX" ""]
+	Text[113387 7088 2 110 "TX_EN" ""]
 	Text[92323 230314 0 143 "srobo.org" ""]
+	Text[47244 243110 1 166 "GND" ""]
 	Polygon("clearpoly")
 	(
 		[53937 116930] [52756 118111] [48425 118111] [38189 128347] [38189 141733] 
@@ -2029,7 +2030,7 @@ Layer(3 "component-GND")
 	)
 	Polygon("clearpoly")
 	(
-		[984 220472] [90551 219488] [90551 247047] [984 247047] 
+		[88583 247047] [156496 247047] [156496 241142] [88583 241142] 
 	)
 	Polygon("clearpoly")
 	(
@@ -2037,7 +2038,11 @@ Layer(3 "component-GND")
 	)
 	Polygon("clearpoly")
 	(
-		[88583 247047] [156496 247047] [156496 241142] [88583 241142] 
+		[984 219488] [46260 219488] [46260 247047] [984 247047] 
+	)
+	Polygon("clearpoly")
+	(
+		[58072 247047] [90552 247047] [90552 219488] [58072 219488] 
 	)
 )
 Layer(4 "solder-GND")
