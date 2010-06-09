@@ -6,7 +6,7 @@ SIZE=avr-size
 CFLAGS = -mmcu=${ARCH} -Wall -O2
 
 C_FILES = main.c uart.c
-H_FILES = uart.h
+H_FILES = common.h uart.h
 
 all: sric_test.hex size
 
