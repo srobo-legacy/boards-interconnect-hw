@@ -5,11 +5,12 @@ SIZE=avr-size
 
 CFLAGS = -mmcu=${ARCH} -Wall -O2
 
-C_FILES = main.c
+C_FILES = main.c uart.c
+H_FILES = uart.h
 
 all: sric_test.hex size
 
-sric_test: ${C_FILES}
+sric_test: ${C_FILES} ${H_FILES}
 	${CC} -o sric_test ${C_FILES} ${CFLAGS}
 
 sric_test.hex: sric_test
@@ -21,4 +22,4 @@ size: sric_test
 	${SIZE} sric_test
 
 clean:
-	-rm sric_test sric_test.hex
+	-rm -f sric_test sric_test.hex
