@@ -1,4 +1,13 @@
 #include "uart.h"
+#include <avr/interrupt.h>
+
+/* SRIC */
+ISR(USART0_RX_vect) {
+}
+
+/* PC */
+ISR(USART1_RX_vect) {
+}
 
 void uart_init() {
 	/* USART0 (SRIC) 8N1 38.4k*/
