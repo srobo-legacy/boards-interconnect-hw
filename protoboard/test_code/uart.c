@@ -19,9 +19,12 @@ void uart_init() {
 	UBRR1L = 51;
 }
 
-void uart_pc_send_byte(uint8_t b) {
+int uart_pc_send_byte(char c, FILE *stream) {
+	if (c == '\n')
+		uart_pc_send_byte('\r', stream);
 	while (!(UCSR1A & _BV(UDRE1)));
-	UDR1 = b;
+	UDR1 = c;
+	return 0;
 }
 
 void uart_sric_send_byte(uint8_t b) {

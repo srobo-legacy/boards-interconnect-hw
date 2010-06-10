@@ -5,7 +5,7 @@
 
 void uart_init(void);
 
-void uart_pc_send_byte(uint8_t);
+int uart_pc_send_byte(char c, FILE *stream);
 void uart_sric_send_byte(uint8_t);
 
 #endif /* __UART_H */
