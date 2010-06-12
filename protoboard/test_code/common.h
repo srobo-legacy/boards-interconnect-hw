@@ -6,4 +6,10 @@
 #include <stdint.h>
 #include <stdio.h>
 
+#ifdef UCSR1A
+#	define HAS_UART_1 1
+#else
+#	define HAS_UART_1 0
+#endif
+
 #endif /* __COMMON_H */

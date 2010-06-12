@@ -1,4 +1,4 @@
-ARCH=atmega164p
+ARCH=atmega48
 CC=avr-gcc
 OBJCOPY=avr-objcopy
 SIZE=avr-size
