@@ -10,6 +10,7 @@ int main(void) {
 	stdout = stderr = stdin = &uart1_str;
 
 	printf("Start\n");
+	uart_sric_tx_en(1);
 	while(1) {
 		uart_sric_send_byte((uint8_t)rand());
 	}

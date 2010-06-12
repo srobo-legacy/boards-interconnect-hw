@@ -6,6 +6,9 @@
 #include <stdint.h>
 #include <stdio.h>
 
+#define TX_EN_PORT PORTD
+#define TX_EN_PIN  PD2
+
 #ifdef UCSR1A
 #	define HAS_UART_1 1
 #else
