@@ -9,6 +9,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
+#define TX_EN_DDR  DDRD
 #define TX_EN_PORT PORTD
 #define TX_EN_PIN  PD2
 

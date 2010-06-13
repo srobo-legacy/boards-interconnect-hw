@@ -30,6 +30,9 @@ void uart_init() {
 	UCSR1B = _BV(RXCIE1) | _BV(TXEN1) | _BV(RXEN1);
 	UBRR1L = 51;
 	#endif
+
+	TX_EN_DDR |= _BV(TX_EN_PIN);
+	uart_sric_tx_en(0);
 }
 
 int uart_pc_send_byte(char c, FILE *stream) {
