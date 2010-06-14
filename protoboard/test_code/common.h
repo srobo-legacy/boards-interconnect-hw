@@ -13,6 +13,14 @@
 #define TX_EN_PORT PORTD
 #define TX_EN_PIN  PD2
 
+#define TOKEN_HT_DDR  DDRD
+#define TOKEN_HT_PINP PIND
+#define TOKEN_HT_PIN  PD3
+
+#define TOKEN_GT_DDR  DDRD
+#define TOKEN_GT_PORT PORTD
+#define TOKEN_GT_PIN  PD4
+
 #ifdef UCSR1A
 #	define HAS_UART_1 1
 #else
