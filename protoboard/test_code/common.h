@@ -16,6 +16,8 @@
 #define TOKEN_HT_DDR  DDRD
 #define TOKEN_HT_PINP PIND
 #define TOKEN_HT_PIN  PD3
+#define TOKEN_EN_INT()  EICRA |= _BV(ISC11) | _BV(ISC10); EIMSK |= _BV(INT1)
+#define TOKEN_INT_vect  INT1_vect
 
 #define TOKEN_GT_DDR  DDRD
 #define TOKEN_GT_PORT PORTD
