@@ -17,10 +17,14 @@ int main(void) {
 		sei();
 		while(1);
 	#else
-	uart_sric_tx_en(1);
 	while(1) {
 		/*uart_sric_send_byte((uint8_t)rand());*/
-		uart_sric_send_byte(0x54);
+		if (token_get()) {
+			uart_sric_tx_en(1);
+			uart_sric_send_byte(0x54);
+			uart_sric_tx_en(0);
+			token_release();
+		}
 	}
 	#endif
 	return 0;
