@@ -11,3 +11,13 @@ void token_init() {
 	TOKEN_GT_PORT &= ~_BV(TOKEN_GT_PIN);
 	//TOKEN_EN_INT();
 }
+
+bool token_get() {
+	TOKEN_GT_PORT |= _BV(TOKEN_GT_PIN);
+	while(!(TOKEN_HT_PINP & _BV(TOKEN_HT_PIN)));
+	return true;
+}
+
+void token_release() {
+	TOKEN_GT_PORT &= ~_BV(TOKEN_GT_PIN);
+}

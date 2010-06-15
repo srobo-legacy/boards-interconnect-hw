@@ -8,6 +8,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 #define TX_EN_DDR  DDRD
 #define TX_EN_PORT PORTD
