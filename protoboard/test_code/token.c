@@ -9,5 +9,5 @@ void token_init() {
 	TOKEN_GT_DDR |= _BV(TOKEN_GT_PIN);
 
 	TOKEN_GT_PORT &= ~_BV(TOKEN_GT_PIN);
-	TOKEN_EN_INT();
+	//TOKEN_EN_INT();
 }
