@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Wed Jun 23 12:06:54 2010
+# date:    Wed Jun 23 16:38:41 2010
 # user:    rbarlow (Richard Barlow)
 # host:    kneewax.ecs.soton.ac.uk
 
@@ -857,6 +857,13 @@ Via[22835 35827 3600 2000 0 2000 "" ""]
 Via[29921 20866 3600 2000 0 2000 "" ""]
 Via[33661 15354 3600 2000 0 2000 "" ""]
 Via[76378 36614 3598 2000 0 2000 "" ""]
+Via[77559 27559 3600 2000 0 2000 "" ""]
+Via[87008 27559 3600 2000 0 2000 "" ""]
+Via[77559 42913 3600 2000 0 2000 "" ""]
+Via[87008 42913 3600 2000 0 2000 "" ""]
+Via[75233 108159 3600 2000 0 2000 "" ""]
+Via[79921 99409 3600 2000 0 2000 "" ""]
+Via[69094 100000 3600 2000 0 2000 "" ""]
 
 Element["onsolder" "0805" "C2" "sr-c-2u2-0805" 6496 69883 3149 -5120 1 78 "auto"]
 (
@@ -1126,8 +1133,8 @@ Element["" "8P8C" "S/J1" "sr-cn-8p8c" 40748 87677 15828 31301 1 89 ""]
 
 Element["onsolder" "1206" "F1" "unknown" 65944 42126 -3150 3150 0 100 "auto"]
 (
-	Pad[-5905 1181 -5905 -1181 5118 2000 5718 "1" "1" "onsolder,square"]
-	Pad[5905 1181 5905 -1181 5118 2000 5718 "2" "2" "onsolder,square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
 	ElementLine [-2362 -3740 2362 -3740 800]
 	ElementLine [-2362 3740 2362 3740 800]
 
@@ -1135,8 +1142,8 @@ Element["onsolder" "1206" "F1" "unknown" 65944 42126 -3150 3150 0 100 "auto"]
 
 Element["onsolder" "1206" "F2" "unknown" 65944 51772 -3150 3150 0 100 "auto"]
 (
-	Pad[-5905 1181 -5905 -1181 5118 2000 5718 "1" "1" "onsolder,square"]
-	Pad[5905 1181 5905 -1181 5118 2000 5718 "2" "2" "onsolder,square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
 	ElementLine [-2362 -3740 2362 -3740 800]
 	ElementLine [-2362 3740 2362 3740 800]
 
@@ -1144,8 +1151,8 @@ Element["onsolder" "1206" "F2" "unknown" 65944 51772 -3150 3150 0 100 "auto"]
 
 Element["onsolder" "1206" "F3" "unknown" 65944 21260 -3150 3150 0 100 "auto"]
 (
-	Pad[-5905 1181 -5905 -1181 5118 2000 5718 "1" "1" "onsolder,square"]
-	Pad[5905 1181 5905 -1181 5118 2000 5718 "2" "2" "onsolder,square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
 	ElementLine [-2362 -3740 2362 -3740 800]
 	ElementLine [-2362 3740 2362 3740 800]
 
@@ -1153,8 +1160,8 @@ Element["onsolder" "1206" "F3" "unknown" 65944 21260 -3150 3150 0 100 "auto"]
 
 Element["onsolder" "1206" "F4" "unknown" 65944 31102 -3150 3150 0 100 "auto"]
 (
-	Pad[-5905 1181 -5905 -1181 5118 2000 5718 "1" "1" "onsolder,square"]
-	Pad[5905 1181 5905 -1181 5118 2000 5718 "2" "2" "onsolder,square"]
+	Pad[-5905 -1181 -5905 1181 5118 2000 5718 "1" "1" "onsolder,square"]
+	Pad[5905 -1181 5905 1181 5118 2000 5718 "2" "2" "onsolder,square"]
 	ElementLine [-2362 -3740 2362 -3740 800]
 	ElementLine [-2362 3740 2362 3740 800]
 
@@ -1182,6 +1189,42 @@ Element["found" "8P8C" "S/J2" "sr-cn-8p8c" 40748 18780 15827 37204 1 89 ""]
 	ElementLine [-39775 49500 15000 49500 1000]
 	ElementLine [15000 49500 15000 -14500 1000]
 	ElementLine [-39775 -14500 15000 -14500 1000]
+
+	)
+
+Element["" "SOT23" "D7" "sr-d-gsot03c" 78580 47767 12300 -11000 3 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square,edge2"]
+	Pad[7800 -300 7800 300 3400 3000 4000 "2" "2" "square,edge2"]
+	Pad[3900 -8500 3900 -7900 3400 3000 4000 "3" "3" "square"]
+	ElementLine [10300 -11000 -2500 -11000 1000]
+	ElementLine [10300 2900 10300 -11000 1000]
+	ElementLine [-2500 2900 10300 2900 1000]
+	ElementLine [-2500 -11000 -2500 2900 1000]
+
+	)
+
+Element["" "SOT23" "D8" "sr-d-gsot03c" 86380 22706 -12300 11000 1 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [-10300 11000 2500 11000 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [2500 -2900 2500 11000 1000]
+
+	)
+
+Element["" "SOT23" "D9" "sr-d-gsot03c" 79133 94488 -12300 11000 1 100 ""]
+(
+	Pad[0 -300 0 300 3400 3000 4000 "1" "1" "square"]
+	Pad[-7800 -300 -7800 300 3400 3000 4000 "2" "2" "square"]
+	Pad[-3900 7900 -3900 8500 3400 3000 4000 "3" "3" "square,edge2"]
+	ElementLine [-10300 11000 2500 11000 1000]
+	ElementLine [-10300 -2900 -10300 11000 1000]
+	ElementLine [-10300 -2900 2500 -2900 1000]
+	ElementLine [2500 -2900 2500 11000 1000]
 
 	)
 Layer(1 "component")
@@ -1328,8 +1371,23 @@ Layer(1 "component")
 	Line[45866 21457 49410 17913 2165 2000 "clearline"]
 	Line[49410 17913 67323 17913 2500 2000 "clearline"]
 	Line[67323 17913 70669 21259 2500 2000 "clearline"]
-	Line[70669 36614 76378 36614 2500 2000 "clearline"]
+	Line[82480 30906 82480 39567 2500 2000 "clearline"]
 	Line[70669 21259 70669 36614 2500 2000 "clearline"]
+	Line[75197 102724 75233 102688 2500 2000 "clearline"]
+	Line[70669 36614 82480 36614 2500 2000 "clearline"]
+	Line[78580 22706 78580 26538 1000 2000 "clearline"]
+	Line[78580 26538 77559 27559 1000 2000 "clearline"]
+	Line[86380 22706 86380 26931 1000 2000 "clearline"]
+	Line[86380 26931 87008 27559 1000 2000 "clearline"]
+	Line[87008 42913 87008 47139 1000 2000 "clearline"]
+	Line[87008 47139 86380 47767 1000 2000 "clearline"]
+	Line[77559 42913 77559 46746 1000 2000 "clearline"]
+	Line[77559 46746 78580 47767 1000 2000 "clearline"]
+	Line[79133 94488 79133 98621 1000 2000 "clearline"]
+	Line[79133 98621 79921 99409 1000 2000 "clearline"]
+	Line[71333 94488 71333 97761 1000 2000 "clearline"]
+	Line[71333 97761 69094 100000 1000 2000 "clearline"]
+	Line[75233 108159 75233 102688 2500 2000 "clearline"]
 	Arc[50787 53937 5118 5118 2000 2000 -90 90 "clearline"]
 	Arc[50787 43700 5119 5119 2000 2000 90 90 "clearline"]
 	Arc[15354 59055 8268 8268 1000 2000 180 90 "clearline"]
@@ -1557,9 +1615,9 @@ Layer(2 "solder")
 	Line[59843 92126 59843 97441 1000 2000 "clearline"]
 	Line[50748 92677 51496 91929 1000 2000 "clearline"]
 	Line[79133 94488 74408 99213 1000 2000 "clearline"]
-	Line[74408 99213 72638 99213 1000 2000 "clearline"]
-	Line[72638 99213 69292 102559 1000 2000 "clearline"]
-	Line[69292 102559 64961 102559 1000 2000 "clearline"]
+	Line[74408 99213 72244 99213 1000 2000 "clearline"]
+	Line[72244 99213 72244 104331 1000 2000 "clearline"]
+	Line[72244 104331 66733 104331 1000 2000 "clearline"]
 	Line[71333 94488 71333 95990 1000 2000 "clearline"]
 	Line[71333 95990 67323 100000 1000 2000 "clearline"]
 	Line[67323 100000 62598 100000 1000 2000 "clearline,rubberend"]
@@ -1633,9 +1691,9 @@ Layer(2 "solder")
 	Line[71849 22441 75589 18701 1000 2000 "clearline"]
 	Line[75589 18701 84055 18701 1000 2000 "clearline"]
 	Line[84055 18701 86380 21223 1000 2000 "clearline"]
-	Line[86380 21223 86380 22706 1000 2000 "clearline"]
-	Line[71849 32283 78777 25355 1000 2000 "clearline"]
-	Line[78777 25355 78580 22706 1000 2000 "clearline"]
+	Line[71849 51772 83465 51772 1000 2000 "clearline"]
+	Line[86380 26931 87008 27559 1000 2000 "clearline"]
+	Line[86380 21223 86380 26931 1000 2000 "clearline"]
 	Line[71849 52953 71849 51772 1000 2000 "clearline"]
 	Line[83465 51772 86380 48826 1000 2000 "clearline"]
 	Line[86380 48826 86380 47767 1000 2000 "clearline"]
@@ -1668,7 +1726,17 @@ Layer(2 "solder")
 	Line[65945 40945 65945 39567 787 2000 "clearline"]
 	Line[71849 42715 64961 35827 984 2000 "clearline"]
 	Line[40748 48819 40748 48780 1000 2000 "clearline"]
-	Line[71849 51772 83465 51772 1000 2000 "clearline"]
+	Line[78580 22706 78580 26538 1000 2000 "clearline"]
+	Line[78580 26538 77559 27559 1000 2000 "clearline"]
+	Line[77559 27559 75392 27559 1000 2000 "clearline"]
+	Line[75392 27559 71849 31102 1000 2000 "clearline"]
+	Line[77559 42913 77559 46746 1000 2000 "clearline"]
+	Line[77559 46746 78580 47767 1000 2000 "clearline"]
+	Line[87008 42913 87008 47139 1000 2000 "clearline"]
+	Line[87008 47139 86380 47767 1000 2000 "clearline"]
+	Line[66733 104331 64961 102559 1000 2000 "clearline"]
+	Line[79133 94488 79133 98621 1000 2000 "clearline"]
+	Line[79133 98621 79921 99409 1000 2000 "clearline"]
 	Polygon("clearpoly")
 	(
 		[37402 83464] [37402 75590] [25984 74409] [25984 66141] [37402 65354] 
@@ -1723,6 +1791,7 @@ NetList()
 	Net("D_A" "(unknown)")
 	(
 		Connect("D4-2")
+		Connect("D7-1")
 		Connect("F1-2")
 		Connect("U2-6")
 		Connect("U2-10")
@@ -1736,6 +1805,7 @@ NetList()
 	Net("D_B" "(unknown)")
 	(
 		Connect("D4-1")
+		Connect("D7-2")
 		Connect("F2-2")
 		Connect("U2-7")
 		Connect("U2-11")
@@ -1757,6 +1827,9 @@ NetList()
 		Connect("D4-3")
 		Connect("D5-3")
 		Connect("D6-1")
+		Connect("D7-3")
+		Connect("D8-3")
+		Connect("D9-3")
 		Connect("GND-1")
 		Connect("J3-3")
 		Connect("LED1-2")
@@ -1791,6 +1864,7 @@ NetList()
 	Net("TI_A" "(unknown)")
 	(
 		Connect("D3-2")
+		Connect("D9-1")
 		Connect("R4-2")
 		Connect("U2-2")
 	)
@@ -1803,6 +1877,7 @@ NetList()
 	Net("TI_B" "(unknown)")
 	(
 		Connect("D3-1")
+		Connect("D9-2")
 		Connect("R8-2")
 		Connect("U2-1")
 	)
@@ -1815,6 +1890,7 @@ NetList()
 	Net("TO_A" "(unknown)")
 	(
 		Connect("D5-2")
+		Connect("D8-1")
 		Connect("F3-2")
 		Connect("U2-14")
 	)
@@ -1826,6 +1902,7 @@ NetList()
 	Net("TO_B" "(unknown)")
 	(
 		Connect("D5-1")
+		Connect("D8-2")
 		Connect("F4-2")
 		Connect("U2-13")
 	)
