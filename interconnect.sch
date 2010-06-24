@@ -623,6 +623,8 @@ T 48000 50000 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 48000 48800 5 10 0 1 0 0 1
 footprint=1206
+T 48400 49300 5 10 1 1 0 0 1
+value=sr-fuse-r50-1206
 }
 C 48000 48100 1 0 0 polyfuse-1.sym
 {
@@ -632,6 +634,8 @@ T 48000 49300 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 48000 48100 5 10 0 1 0 0 1
 footprint=1206
+T 48400 48600 5 10 1 1 0 0 1
+value=sr-fuse-r50-1206
 }
 C 48000 46400 1 0 0 polyfuse-1.sym
 {
@@ -641,6 +645,8 @@ T 48000 47600 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 48000 46400 5 10 0 1 0 0 1
 footprint=1206
+T 48400 46900 5 10 1 1 0 0 1
+value=sr-fuse-r50-1206
 }
 C 48000 45700 1 0 0 polyfuse-1.sym
 {
@@ -650,6 +656,8 @@ T 48000 46900 5 10 0 0 0 0 1
 device=RESETTABLE_FUSE
 T 48000 45700 5 10 0 1 0 0 1
 footprint=1206
+T 48400 46200 5 10 1 1 0 0 1
+value=sr-fuse-r50-1206
 }
 N 48000 49000 47400 49000 4
 {
