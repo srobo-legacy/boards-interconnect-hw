@@ -1,5 +1,6 @@
 #include "common.h"
 #include "uart.h"
+#include "token.h"
 #include <stdlib.h>
 #include <avr/interrupt.h>
 
@@ -8,6 +9,7 @@ FILE uart1_str = FDEV_SETUP_STREAM(uart_pc_send_byte, NULL, _FDEV_SETUP_WRITE);
 int main(void) {
 	FLAG_INIT();
 	uart_init();
+	token_init();
 
 	stdout = stderr = stdin = &uart1_str;
 
