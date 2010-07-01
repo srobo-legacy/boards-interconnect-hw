@@ -22,8 +22,9 @@ ISR(USART1_RX_vect) {
 
 void uart_init() {
 	/* USART0 (SRIC) 8N1 38.4k*/
+	UCSR0A = _BV(U2X0);
 	UCSR0B = _BV(RXCIE0) | _BV(TXEN0) | _BV(RXEN0);
-	UBRR0L = 12;
+	//UBRR0L = 12;
 
 	#if HAS_UART_1
 	/* USART1 (PC) 8N1 9600 */
