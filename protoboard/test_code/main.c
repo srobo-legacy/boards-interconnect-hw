@@ -23,7 +23,9 @@ int main(void) {
 		/*uart_sric_send_byte((uint8_t)rand());*/
 		if (token_get()) {
 			uart_sric_tx_en(1);
+			_delay_us(10);
 			uart_sric_send_byte(0x54);
+			_delay_us(20);
 			uart_sric_tx_en(0);
 			token_release();
 		}
