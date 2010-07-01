@@ -9,7 +9,7 @@ ISR(USART_RX_vect) {
 #endif
 
 #if SRIC_RX
-	if (UDR0 == 0x54)
+	if (UDR0 != 0x54)
 		BLINK();
 #endif
 }
