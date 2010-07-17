@@ -40,7 +40,7 @@ symversion=0.1
 T 49100 50200 5 10 1 1 0 0 1
 value=sr-c-470n
 T 49000 49900 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 44500 49900 1 90 0 capacitor-1.sym
 {
@@ -53,7 +53,7 @@ symversion=0.1
 T 44600 50200 5 10 1 1 0 0 1
 value=sr-c-470n
 T 44500 49900 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 45900 49800 45900 50200 4
 N 42500 49900 45900 49900 4
@@ -90,7 +90,7 @@ device=RESISTOR
 T 50000 39900 5 10 1 1 0 0 1
 refdes=R3
 T 49700 40300 5 10 0 1 270 0 1
-footprint=0603
+footprint=sr_0603
 T 50000 39700 5 10 1 1 0 0 1
 value=sr-r-1k
 }
@@ -125,7 +125,7 @@ symversion=0.1
 T 57000 50200 5 10 1 1 0 0 1
 value=sr-c-100n
 T 56500 50800 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 50300 50800 1 270 0 capacitor-1.sym
 {
@@ -138,7 +138,7 @@ symversion=0.1
 T 50800 50200 5 10 1 1 0 0 1
 value=sr-c-100n
 T 50300 50800 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 56000 42000 1 0 0 resistor-2.sym
 {
@@ -149,7 +149,7 @@ refdes=R1
 T 56500 42300 5 10 1 1 0 0 1
 value=sr-r-10k
 T 56000 42000 5 10 0 1 270 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 56000 41400 1 0 0 resistor-2.sym
 {
@@ -160,7 +160,7 @@ refdes=R2
 T 56500 41700 5 10 1 1 0 0 1
 value=sr-r-10k
 T 56000 41400 5 10 0 1 270 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 55000 42100 56000 42100 4
 N 60200 49200 61100 49200 4
@@ -373,7 +373,7 @@ refdes=R5
 T 54800 51100 5 10 1 1 0 0 1
 value=sr-r-100
 T 54500 51700 5 10 0 1 180 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 48200 42700 1 270 0 resistor-2.sym
 {
@@ -384,7 +384,7 @@ refdes=R6
 T 48500 42100 5 10 1 1 0 0 1
 value=sr-r-330
 T 48200 42700 5 10 0 1 180 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 54400 50800 1 270 0 leddual-3.sym
 {
@@ -482,7 +482,7 @@ refdes=R7
 T 41500 40100 5 10 1 1 0 6 1
 value=sr-r-100
 T 41600 40700 5 10 0 0 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 43800 40300 43800 39800 4
 N 44400 39800 43400 39800 4
@@ -700,7 +700,7 @@ refdes=R4
 T 42900 40900 5 10 1 1 0 0 1
 value=sr-r-330
 T 42500 40600 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 C 42500 39700 1 0 0 resistor-2.sym
 {
@@ -711,7 +711,7 @@ refdes=R8
 T 42900 40000 5 10 1 1 0 0 1
 value=sr-r-330
 T 42500 39700 5 10 0 1 0 0 1
-footprint=0603
+footprint=sr_0603
 }
 N 42500 40700 41700 40700 4
 {
