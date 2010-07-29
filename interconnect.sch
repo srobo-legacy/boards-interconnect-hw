@@ -382,7 +382,7 @@ device=RESISTOR
 T 48400 43800 5 10 1 1 0 0 1
 refdes=R6
 T 48400 43600 5 10 1 1 0 0 1
-value=sr-r-330
+value=sr-r-100
 T 48100 44200 5 10 0 1 180 0 1
 footprint=sr_0603
 }
